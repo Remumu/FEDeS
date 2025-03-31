@@ -1,0 +1,1121 @@
+[LSM invokers], 0, user1, submitted
+[LSM invokers], 0, user1, scheduled
+[LSM invokers], 0, runningUsers(1), ListBuffer(user1)
+[LSM invokers], 0, queuingUsers(0), ListBuffer()
+[LSM invokers], 0, GPU usage, 8 / 40
+[LSM invokers], 0,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 0,	user1,	ResNeXt,	8,	8,	1208.0,	1214,	1214,	1214,	List(0, 1, 2, 3, 4, 5, 6, 7)
+[LSM invokers], 142, user2, submitted
+[LSM invokers], 142, user2, scheduled
+[LSM invokers], 142, runningUsers(2), ListBuffer(user1, user2)
+[LSM invokers], 142, queuingUsers(0), ListBuffer()
+[LSM invokers], 142, GPU usage, 16 / 40
+[LSM invokers], 142,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 142,	user1,	ResNeXt,	8,	8,	1152.0,	1157,	1299,	1299,	List(0, 1, 2, 3, 4, 5, 6, 7)
+[LSM invokers], 142,	user2,	BERTLARGE,	8,	8,	504.0,	999,	1141,	999,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 1250, user1, finished, JCT, 1250, currentAVGJCT, 1250.00
+[LSM invokers], 1250, runningUsers(1), ListBuffer(user2)
+[LSM invokers], 1250, queuingUsers(0), ListBuffer()
+[LSM invokers], 1250, GPU usage, 8 / 40
+[LSM invokers], 1250,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 1250,	user2,	BERTLARGE,	8,	8,	8.0,	15,	1265,	1123,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 1284, user2, finished, JCT, 1142, currentAVGJCT, 1196.00
+[LSM invokers], 1284, runningUsers(0), ListBuffer()
+[LSM invokers], 1284, queuingUsers(0), ListBuffer()
+[LSM invokers], 1284, GPU usage, 0 / 40
+[LSM invokers], 1284,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 2044, user3, submitted
+[LSM invokers], 2044, user3, scheduled
+[LSM invokers], 2044, runningUsers(1), ListBuffer(user3)
+[LSM invokers], 2044, queuingUsers(0), ListBuffer()
+[LSM invokers], 2044, GPU usage, 16 / 40
+[LSM invokers], 2044,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 2044,	user3,	ResNet50,	16,	16,	3792.0,	5170,	7214,	5170,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 3320, user4, submitted
+[LSM invokers], 3320, user4, scheduled
+[LSM invokers], 3320, runningUsers(2), ListBuffer(user3, user4)
+[LSM invokers], 3320, queuingUsers(0), ListBuffer()
+[LSM invokers], 3320, GPU usage, 32 / 40
+[LSM invokers], 3320,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 3320,	user3,	ResNet50,	16,	16,	2936.0,	4003,	7323,	5279,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 3320,	user4,	BERTLARGE,	16,	16,	2165.0,	5197,	8517,	5197,	List(16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 3414, user5, submitted
+[LSM invokers], 3414, user5, scheduled
+[LSM invokers], 3414, runningUsers(3), ListBuffer(user3, user4, user5)
+[LSM invokers], 3414, queuingUsers(0), ListBuffer()
+[LSM invokers], 3414, GPU usage, 36 / 40
+[LSM invokers], 3414,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 3414,	user3,	ResNet50,	16,	16,	2864.0,	3905,	7319,	5275,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 3414,	user4,	BERTLARGE,	16,	16,	2157.0,	5178,	8592,	5272,	List(16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 3414,	user5,	ResNet50,	4,	4,	2940.0,	3519,	6933,	3519,	List(32, 33, 34, 35)
+[LSM invokers], 3669, user6, submitted
+[LSM invokers], 3669, user6, scheduled
+[LSM invokers], 3669, runningUsers(4), ListBuffer(user3, user4, user5, user6)
+[LSM invokers], 3669, queuingUsers(0), ListBuffer()
+[LSM invokers], 3669, GPU usage, 40 / 40
+[LSM invokers], 3669,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 3669,	user3,	ResNet50,	16,	16,	2664.0,	3632,	7301,	5257,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 3669,	user4,	BERTLARGE,	16,	16,	2085.0,	5005,	8674,	5354,	List(16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 3669,	user5,	ResNet50,	4,	4,	2780.0,	3327,	6996,	3582,	List(32, 33, 34, 35)
+[LSM invokers], 3669,	user6,	BERTLARGE,	16,	4,	2186.0,	51362,	55031,	51362,	List(36, 37, 38, 39)
+[LSM invokers], 3796, user7, submitted
+[LSM invokers], 3796, user7, scheduled
+[LSM invokers], 3796, runningUsers(5), ListBuffer(user3, user4, user5, user6, user7)
+[LSM invokers], 3796, queuingUsers(0), ListBuffer()
+[LSM invokers], 3796, GPU usage, 40 / 40
+[LSM invokers], 3796,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 3796,	user3,	ResNet50,	16,	16,	2560.0,	3490,	7286,	5242,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 3796,	user4,	BERTLARGE,	16,	8,	2037.0,	13282,	17078,	13758,	List(16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 3796,	user5,	ResNet50,	4,	4,	2684.0,	3212,	7008,	3594,	List(32, 33, 34, 35)
+[LSM invokers], 3796,	user6,	BERTLARGE,	16,	4,	2178.0,	51174,	54970,	51301,	List(36, 37, 38, 39)
+[LSM invokers], 3796,	user7,	GNMT,	8,	8,	1417.0,	2790,	6586,	2790,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4174, user8, submitted
+[LSM invokers], 4174, user8, queued
+[LSM invokers], 4174, runningUsers(5), ListBuffer(user3, user4, user5, user6, user7)
+[LSM invokers], 4174, queuingUsers(1), ListBuffer(user8)
+[LSM invokers], 4174, GPU usage, 40 / 40
+[LSM invokers], 4174,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 4174,	user3,	ResNet50,	16,	16,	2264.0,	3086,	7260,	5216,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 4174,	user4,	BERTLARGE,	16,	8,	1941.0,	12656,	16830,	13510,	List(16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 4174,	user5,	ResNet50,	4,	4,	2396.0,	2868,	7042,	3628,	List(32, 33, 34, 35)
+[LSM invokers], 4174,	user6,	BERTLARGE,	16,	4,	2130.0,	50046,	54220,	50551,	List(36, 37, 38, 39)
+[LSM invokers], 4174,	user7,	GNMT,	8,	8,	1297.0,	2554,	6728,	2932,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4176, user9, submitted
+[LSM invokers], 4176, user9, queued
+[LSM invokers], 4176, runningUsers(5), ListBuffer(user3, user4, user5, user6, user7)
+[LSM invokers], 4176, queuingUsers(2), ListBuffer(user8, user9)
+[LSM invokers], 4176, GPU usage, 40 / 40
+[LSM invokers], 4176,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 4176,	user3,	ResNet50,	16,	16,	2264.0,	3086,	7262,	5218,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 4176,	user4,	BERTLARGE,	16,	8,	1941.0,	12656,	16832,	13512,	List(16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 4176,	user5,	ResNet50,	4,	4,	2396.0,	2868,	7044,	3630,	List(32, 33, 34, 35)
+[LSM invokers], 4176,	user6,	BERTLARGE,	16,	4,	2130.0,	50046,	54222,	50553,	List(36, 37, 38, 39)
+[LSM invokers], 4176,	user7,	GNMT,	8,	8,	1297.0,	2554,	6730,	2934,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4186, user10, submitted
+[LSM invokers], 4186, user6, yielded
+[LSM invokers], 4186, user10, scheduled
+[LSM invokers], 4186, runningUsers(5), ListBuffer(user3, user4, user5, user7, user10)
+[LSM invokers], 4186, queuingUsers(3), ListBuffer(user6, user8, user9)
+[LSM invokers], 4186, GPU usage, 40 / 40
+[LSM invokers], 4186,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 4186,	user3,	ResNet50,	16,	16,	2256.0,	3076,	7262,	5218,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 4186,	user4,	BERTLARGE,	16,	4,	1933.0,	45417,	49603,	46283,	List(16, 17, 18, 19)
+[LSM invokers], 4186,	user5,	ResNet50,	4,	4,	2396.0,	2868,	7054,	3640,	List(32, 33, 34, 35)
+[LSM invokers], 4186,	user7,	GNMT,	8,	8,	1297.0,	2554,	6740,	2944,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4186,	user10,	GNMT,	8,	8,	677.0,	1333,	5519,	1333,	List(20, 21, 22, 23, 36, 37, 38, 39)
+[LSM invokers], 4594, user11, submitted
+[LSM invokers], 4594, user4, yielded
+[LSM invokers], 4594, user11, scheduled
+[LSM invokers], 4594, runningUsers(5), ListBuffer(user3, user5, user7, user10, user11)
+[LSM invokers], 4594, queuingUsers(4), ListBuffer(user4, user6, user8, user9)
+[LSM invokers], 4594, GPU usage, 40 / 40
+[LSM invokers], 4594,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 4594,	user3,	ResNet50,	16,	16,	1936.0,	2639,	7233,	5189,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 4594,	user5,	ResNet50,	4,	4,	2044.0,	2446,	7040,	3626,	List(32, 33, 34, 35)
+[LSM invokers], 4594,	user7,	GNMT,	8,	8,	1105.0,	2176,	6770,	2974,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4594,	user10,	GNMT,	8,	8,	589.0,	1160,	5754,	1568,	List(20, 21, 22, 23, 36, 37, 38, 39)
+[LSM invokers], 4594,	user11,	VGG19-I,	16,	4,	3296.0,	38971,	43565,	38971,	List(16, 17, 18, 19)
+[LSM invokers], 4991, user12, submitted
+[LSM invokers], 4991, user12, queued
+[LSM invokers], 4991, runningUsers(5), ListBuffer(user3, user5, user7, user10, user11)
+[LSM invokers], 4991, queuingUsers(5), ListBuffer(user4, user6, user8, user9, user12)
+[LSM invokers], 4991, GPU usage, 40 / 40
+[LSM invokers], 4991,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 4991,	user3,	ResNet50,	16,	16,	1632.0,	2225,	7216,	5172,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 4991,	user5,	ResNet50,	4,	4,	1724.0,	2063,	7054,	3640,	List(32, 33, 34, 35)
+[LSM invokers], 4991,	user7,	GNMT,	8,	8,	921.0,	1813,	6804,	3008,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 4991,	user10,	GNMT,	8,	8,	397.0,	781,	5772,	1586,	List(20, 21, 22, 23, 36, 37, 38, 39)
+[LSM invokers], 4991,	user11,	VGG19-I,	16,	4,	3252.0,	38451,	43442,	38848,	List(16, 17, 18, 19)
+[LSM invokers], 5863, user10, finished, JCT, 1677, currentAVGJCT, 1356.33
+[LSM invokers], 5863, user4, scheduled
+[LSM invokers], 5863, runningUsers(5), ListBuffer(user3, user4, user5, user7, user11)
+[LSM invokers], 5863, queuingUsers(4), ListBuffer(user6, user8, user9, user12)
+[LSM invokers], 5863, GPU usage, 40 / 40
+[LSM invokers], 5863,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 5863,	user3,	ResNet50,	16,	16,	952.0,	1298,	7161,	5117,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 5863,	user4,	BERTLARGE,	16,	8,	1877.0,	12239,	18102,	14782,	List(20, 21, 22, 23, 36, 37, 38, 39)
+[LSM invokers], 5863,	user5,	ResNet50,	4,	4,	1020.0,	1220,	7083,	3669,	List(32, 33, 34, 35)
+[LSM invokers], 5863,	user7,	GNMT,	8,	8,	513.0,	1010,	6873,	3077,	List(24, 25, 26, 27, 28, 29, 30, 31)
+[LSM invokers], 5863,	user11,	VGG19-I,	16,	4,	3078.0,	36394,	42257,	37663,	List(16, 17, 18, 19)
+[LSM invokers], 6986, user7, finished, JCT, 3190, currentAVGJCT, 1814.75
+[LSM invokers], 6986, runningUsers(4), ListBuffer(user3, user4, user5, user11)
+[LSM invokers], 6986, queuingUsers(4), ListBuffer(user6, user8, user9, user12)
+[LSM invokers], 6986, GPU usage, 40 / 40
+[LSM invokers], 6986,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 6986,	user3,	ResNet50,	16,	16,	72.0,	98,	7084,	5040,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 6986,	user4,	BERTLARGE,	16,	16,	1629.0,	3910,	10896,	7576,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 6986,	user5,	ResNet50,	4,	4,	92.0,	110,	7096,	3682,	List(32, 33, 34, 35)
+[LSM invokers], 6986,	user11,	VGG19-I,	16,	4,	2858.0,	33792,	40778,	36184,	List(16, 17, 18, 19)
+[LSM invokers], 7081, user3, finished, JCT, 5037, currentAVGJCT, 2459.20
+[LSM invokers], 7081, user8, scheduled
+[LSM invokers], 7081, runningUsers(4), ListBuffer(user4, user5, user8, user11)
+[LSM invokers], 7081, queuingUsers(3), ListBuffer(user6, user9, user12)
+[LSM invokers], 7081, GPU usage, 40 / 40
+[LSM invokers], 7081,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 7081,	user4,	BERTLARGE,	16,	16,	1621.0,	3891,	10972,	7652,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 7081,	user5,	ResNet50,	4,	4,	28.0,	33,	7114,	3700,	List(32, 33, 34, 35)
+[LSM invokers], 7081,	user8,	GPT2-SMALL,	16,	16,	3220.0,	4514,	11595,	7421,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 7081,	user11,	VGG19-I,	16,	4,	2838.0,	33556,	40637,	36043,	List(16, 17, 18, 19)
+[LSM invokers], 7101, user13, submitted
+[LSM invokers], 7101, user8, yielded
+[LSM invokers], 7101, user6, scheduled
+[LSM invokers], 7101, user13, scheduled
+[LSM invokers], 7101, runningUsers(5), ListBuffer(user4, user5, user6, user11, user13)
+[LSM invokers], 7101, queuingUsers(3), ListBuffer(user8, user9, user12)
+[LSM invokers], 7101, GPU usage, 40 / 40
+[LSM invokers], 7101,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 7101,	user4,	BERTLARGE,	16,	16,	1613.0,	3872,	10973,	7653,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 7101,	user5,	ResNet50,	4,	4,	28.0,	33,	7134,	3720,	List(32, 33, 34, 35)
+[LSM invokers], 7101,	user6,	BERTLARGE,	16,	8,	2130.0,	13888,	20989,	17320,	List(0, 1, 2, 3, 4, 5, 6, 7)
+[LSM invokers], 7101,	user11,	VGG19-I,	16,	4,	2834.0,	33509,	40610,	36016,	List(16, 17, 18, 19)
+[LSM invokers], 7101,	user13,	GPT2-SMALL,	8,	8,	755.0,	1057,	8158,	1057,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 7144, user5, finished, JCT, 3730, currentAVGJCT, 2671.00
+[LSM invokers], 7144, user11, yielded
+[LSM invokers], 7144, user6, yielded
+[LSM invokers], 7144, user8, scheduled
+[LSM invokers], 7144, runningUsers(3), ListBuffer(user4, user8, user13)
+[LSM invokers], 7144, queuingUsers(4), ListBuffer(user6, user9, user11, user12)
+[LSM invokers], 7144, GPU usage, 40 / 40
+[LSM invokers], 7144,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 7144,	user4,	BERTLARGE,	16,	16,	1597.0,	3833,	10977,	7657,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 7144,	user8,	GPT2-SMALL,	16,	16,	3220.0,	4514,	11658,	7484,	List(0, 1, 2, 3, 4, 5, 6, 7, 16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 7144,	user13,	GPT2-SMALL,	8,	8,	723.0,	1012,	8156,	1055,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 8066, user14, submitted
+[LSM invokers], 8066, user8, yielded
+[LSM invokers], 8066, user11, scheduled
+[LSM invokers], 8066, user14, scheduled
+[LSM invokers], 8066, runningUsers(4), ListBuffer(user4, user11, user13, user14)
+[LSM invokers], 8066, queuingUsers(4), ListBuffer(user6, user8, user9, user12)
+[LSM invokers], 8066, GPU usage, 40 / 40
+[LSM invokers], 8066,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 8066,	user4,	BERTLARGE,	16,	16,	1221.0,	2931,	10997,	7677,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 8066,	user11,	VGG19-I,	16,	8,	2826.0,	13261,	21327,	16733,	List(0, 1, 2, 3, 4, 5, 6, 7)
+[LSM invokers], 8066,	user13,	GPT2-SMALL,	8,	8,	115.0,	161,	8227,	1126,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 8066,	user14,	GPT2-SMALL,	8,	8,	701.0,	982,	9048,	982,	List(16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 8275, user13, finished, JCT, 1174, currentAVGJCT, 2457.14
+[LSM invokers], 8275, user11, yielded
+[LSM invokers], 8275, user8, scheduled
+[LSM invokers], 8275, runningUsers(3), ListBuffer(user4, user8, user14)
+[LSM invokers], 8275, queuingUsers(4), ListBuffer(user6, user9, user11, user12)
+[LSM invokers], 8275, GPU usage, 40 / 40
+[LSM invokers], 8275,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 8275,	user4,	BERTLARGE,	16,	16,	1133.0,	2719,	10994,	7674,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 8275,	user8,	GPT2-SMALL,	16,	16,	2676.0,	3751,	12026,	7852,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 8275,	user14,	GPT2-SMALL,	8,	8,	573.0,	802,	9077,	1011,	List(16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 9124, user14, finished, JCT, 1058, currentAVGJCT, 2282.25
+[LSM invokers], 9124, user11, scheduled
+[LSM invokers], 9124, runningUsers(3), ListBuffer(user4, user8, user11)
+[LSM invokers], 9124, queuingUsers(3), ListBuffer(user6, user9, user12)
+[LSM invokers], 9124, GPU usage, 40 / 40
+[LSM invokers], 9124,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 9124,	user4,	BERTLARGE,	16,	16,	781.0,	1874,	10998,	7678,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 9124,	user8,	GPT2-SMALL,	16,	16,	2100.0,	2944,	12068,	7894,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 9124,	user11,	VGG19-I,	16,	8,	2818.0,	13224,	22348,	17754,	List(16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 9934, user15, submitted
+[LSM invokers], 9934, user12, scheduled
+[LSM invokers], 9934, user6, scheduled
+[LSM invokers], 9934, user15, scheduled
+[LSM invokers], 9934, runningUsers(6), ListBuffer(user4, user6, user8, user11, user12, user15)
+[LSM invokers], 9934, queuingUsers(1), ListBuffer(user9)
+[LSM invokers], 9934, GPU usage, 40 / 40
+[LSM invokers], 9934,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 9934,	user4,	BERTLARGE,	16,	16,	445.0,	1068,	11002,	7682,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 9934,	user6,	BERTLARGE,	16,	2,	2130.0,	195516,	205450,	201781,	List(32, 33)
+[LSM invokers], 9934,	user8,	GPT2-SMALL,	16,	16,	1476.0,	2069,	12003,	7829,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 9934,	user11,	VGG19-I,	16,	4,	2620.0,	30978,	40912,	36318,	List(16, 17, 18, 19)
+[LSM invokers], 9934,	user12,	BERTLARGE,	16,	1,	2157.0,	692109,	702043,	697052,	List(34)
+[LSM invokers], 9934,	user15,	BERTLARGE,	1,	1,	722.0,	1292,	11226,	1292,	List(35)
+[LSM invokers], 9934, user17, submitted
+[LSM invokers], 9934, user12, yielded
+[LSM invokers], 9934, user17, scheduled
+[LSM invokers], 9934, runningUsers(6), ListBuffer(user4, user6, user8, user11, user15, user17)
+[LSM invokers], 9934, queuingUsers(2), ListBuffer(user9, user12)
+[LSM invokers], 9934, GPU usage, 40 / 40
+[LSM invokers], 9934,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 9934,	user4,	BERTLARGE,	16,	16,	445.0,	1068,	11002,	7682,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 9934,	user6,	BERTLARGE,	16,	2,	2130.0,	195516,	205450,	201781,	List(32, 33)
+[LSM invokers], 9934,	user8,	GPT2-SMALL,	16,	16,	1476.0,	2069,	12003,	7829,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 9934,	user11,	VGG19-I,	16,	4,	2620.0,	30978,	40912,	36318,	List(16, 17, 18, 19)
+[LSM invokers], 9934,	user15,	BERTLARGE,	1,	1,	722.0,	1292,	11226,	1292,	List(35)
+[LSM invokers], 9934,	user17,	BERTLARGE,	1,	1,	789.0,	1412,	11346,	1412,	List(34)
+[LSM invokers], 9934, user16, submitted
+[LSM invokers], 9934, user16, scheduled
+[LSM invokers], 9934, runningUsers(7), ListBuffer(user4, user6, user8, user11, user15, user16, user17)
+[LSM invokers], 9934, queuingUsers(2), ListBuffer(user9, user12)
+[LSM invokers], 9934, GPU usage, 40 / 40
+[LSM invokers], 9934,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 9934,	user4,	BERTLARGE,	16,	16,	445.0,	1068,	11002,	7682,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 9934,	user6,	BERTLARGE,	16,	1,	2130.0,	683445,	693379,	689710,	List(33)
+[LSM invokers], 9934,	user8,	GPT2-SMALL,	16,	16,	1476.0,	2069,	12003,	7829,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 9934,	user11,	VGG19-I,	16,	4,	2620.0,	30978,	40912,	36318,	List(16, 17, 18, 19)
+[LSM invokers], 9934,	user15,	BERTLARGE,	1,	1,	722.0,	1292,	11226,	1292,	List(35)
+[LSM invokers], 9934,	user16,	VGG19-I,	1,	1,	1215.0,	1265,	11199,	1265,	List(32)
+[LSM invokers], 9934,	user17,	BERTLARGE,	1,	1,	789.0,	1412,	11346,	1412,	List(34)
+[LSM invokers], 9934, user18, submitted
+[LSM invokers], 9934, user6, yielded
+[LSM invokers], 9934, user18, scheduled
+[LSM invokers], 9934, runningUsers(7), ListBuffer(user4, user8, user11, user15, user16, user17, user18)
+[LSM invokers], 9934, queuingUsers(3), ListBuffer(user6, user9, user12)
+[LSM invokers], 9934, GPU usage, 40 / 40
+[LSM invokers], 9934,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 9934,	user4,	BERTLARGE,	16,	16,	445.0,	1068,	11002,	7682,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 9934,	user8,	GPT2-SMALL,	16,	16,	1476.0,	2069,	12003,	7829,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 9934,	user11,	VGG19-I,	16,	4,	2620.0,	30978,	40912,	36318,	List(16, 17, 18, 19)
+[LSM invokers], 9934,	user15,	BERTLARGE,	1,	1,	722.0,	1292,	11226,	1292,	List(35)
+[LSM invokers], 9934,	user16,	VGG19-I,	1,	1,	1215.0,	1265,	11199,	1265,	List(32)
+[LSM invokers], 9934,	user17,	BERTLARGE,	1,	1,	789.0,	1412,	11346,	1412,	List(34)
+[LSM invokers], 9934,	user18,	ResNeXt,	1,	1,	1880.0,	1631,	11565,	1631,	List(33)
+[LSM invokers], 11033, user4, finished, JCT, 7713, currentAVGJCT, 2885.67
+[LSM invokers], 11033, user6, scheduled
+[LSM invokers], 11033, runningUsers(7), ListBuffer(user6, user8, user11, user15, user16, user17, user18)
+[LSM invokers], 11033, queuingUsers(2), ListBuffer(user9, user12)
+[LSM invokers], 11033, GPU usage, 40 / 40
+[LSM invokers], 11033,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11033,	user6,	BERTLARGE,	16,	16,	2130.0,	5113,	16146,	12477,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11033,	user8,	GPT2-SMALL,	16,	16,	644.0,	902,	11935,	7761,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 11033,	user11,	VGG19-I,	16,	4,	2416.0,	28566,	39599,	35005,	List(16, 17, 18, 19)
+[LSM invokers], 11033,	user15,	BERTLARGE,	1,	1,	82.0,	146,	11179,	1245,	List(35)
+[LSM invokers], 11033,	user16,	VGG19-I,	1,	1,	191.0,	198,	11231,	1297,	List(32)
+[LSM invokers], 11033,	user17,	BERTLARGE,	1,	1,	149.0,	266,	11299,	1365,	List(34)
+[LSM invokers], 11033,	user18,	ResNeXt,	1,	1,	728.0,	631,	11664,	1730,	List(33)
+[LSM invokers], 11226, user16, finished, JCT, 1292, currentAVGJCT, 2726.30
+[LSM invokers], 11226, user12, scheduled
+[LSM invokers], 11226, runningUsers(7), ListBuffer(user6, user8, user11, user12, user15, user17, user18)
+[LSM invokers], 11226, queuingUsers(1), ListBuffer(user9)
+[LSM invokers], 11226, GPU usage, 40 / 40
+[LSM invokers], 11226,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11226,	user6,	BERTLARGE,	16,	16,	2066.0,	4959,	16185,	12516,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11226,	user8,	GPT2-SMALL,	16,	16,	500.0,	700,	11926,	7752,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 11226,	user11,	VGG19-I,	16,	4,	2380.0,	28141,	39367,	34773,	List(16, 17, 18, 19)
+[LSM invokers], 11226,	user12,	BERTLARGE,	16,	1,	2157.0,	692109,	703335,	698344,	List(32)
+[LSM invokers], 11226,	user15,	BERTLARGE,	1,	1,	82.0,	146,	11372,	1438,	List(35)
+[LSM invokers], 11226,	user17,	BERTLARGE,	1,	1,	21.0,	37,	11263,	1329,	List(34)
+[LSM invokers], 11226,	user18,	ResNeXt,	1,	1,	504.0,	437,	11663,	1729,	List(33)
+[LSM invokers], 11494, user15, finished, JCT, 1560, currentAVGJCT, 2620.27
+[LSM invokers], 11494, runningUsers(6), ListBuffer(user6, user8, user11, user12, user17, user18)
+[LSM invokers], 11494, queuingUsers(1), ListBuffer(user9)
+[LSM invokers], 11494, GPU usage, 40 / 40
+[LSM invokers], 11494,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11494,	user6,	BERTLARGE,	16,	16,	1954.0,	4690,	16184,	12515,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11494,	user8,	GPT2-SMALL,	16,	16,	292.0,	409,	11903,	7729,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 11494,	user11,	VGG19-I,	16,	4,	2330.0,	27549,	39043,	34449,	List(16, 17, 18, 19)
+[LSM invokers], 11494,	user12,	BERTLARGE,	16,	2,	2141.0,	196525,	208019,	203028,	List(32, 35)
+[LSM invokers], 11494,	user17,	BERTLARGE,	1,	1,	-107.0,	1,	11495,	1561,	List(34)
+[LSM invokers], 11494,	user18,	ResNeXt,	1,	1,	216.0,	187,	11681,	1747,	List(33)
+[LSM invokers], 11518, user17, finished, JCT, 1584, currentAVGJCT, 2533.92
+[LSM invokers], 11518, user9, scheduled
+[LSM invokers], 11518, runningUsers(6), ListBuffer(user6, user8, user9, user11, user12, user18)
+[LSM invokers], 11518, queuingUsers(0), ListBuffer()
+[LSM invokers], 11518, GPU usage, 40 / 40
+[LSM invokers], 11518,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11518,	user6,	BERTLARGE,	16,	16,	1946.0,	4671,	16189,	12520,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11518,	user8,	GPT2-SMALL,	16,	16,	276.0,	386,	11904,	7730,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 11518,	user9,	ResNet50,	16,	1,	3813.0,	941664,	953182,	949006,	List(34)
+[LSM invokers], 11518,	user11,	VGG19-I,	16,	4,	2326.0,	27502,	39020,	34426,	List(16, 17, 18, 19)
+[LSM invokers], 11518,	user12,	BERTLARGE,	16,	2,	2141.0,	196525,	208043,	203052,	List(32, 35)
+[LSM invokers], 11518,	user18,	ResNeXt,	1,	1,	184.0,	159,	11677,	1743,	List(33)
+[LSM invokers], 11694, user18, finished, JCT, 1760, currentAVGJCT, 2474.38
+[LSM invokers], 11694, user12, yielded
+[LSM invokers], 11694, user9, yielded
+[LSM invokers], 11694, runningUsers(3), ListBuffer(user6, user8, user11)
+[LSM invokers], 11694, queuingUsers(2), ListBuffer(user9, user12)
+[LSM invokers], 11694, GPU usage, 40 / 40
+[LSM invokers], 11694,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11694,	user6,	BERTLARGE,	16,	16,	1874.0,	4498,	16192,	12523,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11694,	user8,	GPT2-SMALL,	16,	16,	148.0,	207,	11901,	7727,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 11694,	user11,	VGG19-I,	16,	8,	2292.0,	10755,	22449,	17855,	List(16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 11906, user8, finished, JCT, 7732, currentAVGJCT, 2849.93
+[LSM invokers], 11906, user12, scheduled
+[LSM invokers], 11906, runningUsers(3), ListBuffer(user6, user11, user12)
+[LSM invokers], 11906, queuingUsers(1), ListBuffer(user9)
+[LSM invokers], 11906, GPU usage, 40 / 40
+[LSM invokers], 11906,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 11906,	user6,	BERTLARGE,	16,	16,	1786.0,	4287,	16193,	12524,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 11906,	user11,	VGG19-I,	16,	8,	2262.0,	10615,	22521,	17927,	List(16, 17, 18, 19, 32, 33, 34, 35)
+[LSM invokers], 11906,	user12,	BERTLARGE,	16,	16,	2141.0,	5139,	17045,	12054,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 13329, user19, submitted
+[LSM invokers], 13329, user9, scheduled
+[LSM invokers], 13329, user19, scheduled
+[LSM invokers], 13329, runningUsers(5), ListBuffer(user6, user9, user11, user12, user19)
+[LSM invokers], 13329, queuingUsers(0), ListBuffer()
+[LSM invokers], 13329, GPU usage, 39 / 40
+[LSM invokers], 13329,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 13329,	user6,	BERTLARGE,	16,	16,	1218.0,	2923,	16252,	12583,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 13329,	user9,	ResNet50,	16,	2,	3805.0,	250366,	263695,	259519,	List(32, 33)
+[LSM invokers], 13329,	user11,	VGG19-I,	16,	4,	1800.0,	21283,	34612,	30018,	List(16, 17, 18, 19)
+[LSM invokers], 13329,	user12,	BERTLARGE,	16,	16,	1645.0,	3949,	17278,	12287,	List(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 13329,	user19,	ResNet50,	1,	1,	1431.0,	1643,	14972,	1643,	List(34)
+[LSM invokers], 14995, user20, submitted
+[LSM invokers], 14995, user20, scheduled
+[LSM invokers], 14995, runningUsers(6), ListBuffer(user6, user9, user11, user12, user19, user20)
+[LSM invokers], 14995, queuingUsers(0), ListBuffer()
+[LSM invokers], 14995, GPU usage, 40 / 40
+[LSM invokers], 14995,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 14995,	user6,	BERTLARGE,	16,	16,	554.0,	1329,	16324,	12655,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 14995,	user9,	ResNet50,	16,	1,	3637.0,	898199,	913194,	909018,	List(33)
+[LSM invokers], 14995,	user11,	VGG19-I,	16,	4,	1492.0,	17641,	32636,	28042,	List(16, 17, 18, 19)
+[LSM invokers], 14995,	user12,	BERTLARGE,	16,	2,	1013.0,	92984,	107979,	102988,	List(2, 3)
+[LSM invokers], 14995,	user19,	ResNet50,	1,	1,	-105.0,	1,	14996,	1667,	List(34)
+[LSM invokers], 14995,	user20,	GPT2-SMALL,	16,	16,	814.0,	1141,	16136,	1141,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 15060, user19, finished, JCT, 1731, currentAVGJCT, 2775.33
+[LSM invokers], 15060, user11, yielded
+[LSM invokers], 15060, user9, yielded
+[LSM invokers], 15060, runningUsers(3), ListBuffer(user6, user12, user20)
+[LSM invokers], 15060, queuingUsers(2), ListBuffer(user9, user11)
+[LSM invokers], 15060, GPU usage, 40 / 40
+[LSM invokers], 15060,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 15060,	user6,	BERTLARGE,	16,	16,	530.0,	1272,	16332,	12663,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 15060,	user12,	BERTLARGE,	16,	8,	1005.0,	6553,	21613,	16622,	List(2, 3, 16, 17, 18, 19, 33, 34)
+[LSM invokers], 15060,	user20,	GPT2-SMALL,	16,	16,	798.0,	1118,	16178,	1183,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 15831, user21, submitted
+[LSM invokers], 15831, user12, yielded
+[LSM invokers], 15831, user21, scheduled
+[LSM invokers], 15831, runningUsers(3), ListBuffer(user6, user20, user21)
+[LSM invokers], 15831, queuingUsers(3), ListBuffer(user9, user11, user12)
+[LSM invokers], 15831, GPU usage, 40 / 40
+[LSM invokers], 15831,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 15831,	user6,	BERTLARGE,	16,	16,	218.0,	523,	16354,	12685,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 15831,	user20,	GPT2-SMALL,	16,	16,	286.0,	400,	16231,	1236,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 15831,	user21,	ResNeXt,	8,	8,	1439.0,	1446,	17277,	1446,	List(2, 3, 16, 17, 18, 19, 33, 34)
+[LSM invokers], 16249, user20, finished, JCT, 1254, currentAVGJCT, 2680.25
+[LSM invokers], 16249, user12, scheduled
+[LSM invokers], 16249, runningUsers(3), ListBuffer(user6, user12, user21)
+[LSM invokers], 16249, queuingUsers(2), ListBuffer(user9, user11)
+[LSM invokers], 16249, GPU usage, 40 / 40
+[LSM invokers], 16249,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 16249,	user6,	BERTLARGE,	16,	16,	58.0,	139,	16388,	12719,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 16249,	user12,	BERTLARGE,	16,	16,	837.0,	2009,	18258,	13267,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 16249,	user21,	ResNeXt,	8,	8,	1091.0,	1096,	17345,	1514,	List(2, 3, 16, 17, 18, 19, 33, 34)
+[LSM invokers], 16475, user6, finished, JCT, 12806, currentAVGJCT, 3275.88
+[LSM invokers], 16475, user11, scheduled
+[LSM invokers], 16475, runningUsers(3), ListBuffer(user11, user12, user21)
+[LSM invokers], 16475, queuingUsers(1), ListBuffer(user9)
+[LSM invokers], 16475, GPU usage, 40 / 40
+[LSM invokers], 16475,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 16475,	user11,	VGG19-I,	16,	16,	1480.0,	3259,	19734,	15140,	List(20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 36, 37, 38, 39)
+[LSM invokers], 16475,	user12,	BERTLARGE,	16,	16,	765.0,	1836,	18311,	13320,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 16475,	user21,	ResNeXt,	8,	8,	855.0,	859,	17334,	1503,	List(2, 3, 16, 17, 18, 19, 33, 34)
+[LSM invokers], 17222, user22, submitted
+[LSM invokers], 17222, user9, scheduled
+[LSM invokers], 17222, user22, scheduled
+[LSM invokers], 17222, runningUsers(5), ListBuffer(user9, user11, user12, user21, user22)
+[LSM invokers], 17222, queuingUsers(0), ListBuffer()
+[LSM invokers], 17222, GPU usage, 37 / 40
+[LSM invokers], 17222,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 17222,	user9,	ResNet50,	16,	4,	3629.0,	63533,	80755,	76579,	List(28, 29, 30, 31)
+[LSM invokers], 17222,	user11,	VGG19-I,	16,	8,	1292.0,	6063,	23285,	18691,	List(20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 17222,	user12,	BERTLARGE,	16,	16,	461.0,	1106,	18328,	13337,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 17222,	user21,	ResNeXt,	8,	8,	83.0,	83,	17305,	1474,	List(2, 3, 16, 17, 18, 19, 33, 34)
+[LSM invokers], 17222,	user22,	GNMT,	1,	1,	758.0,	1131,	18353,	1131,	List(36)
+[LSM invokers], 17304, user21, finished, JCT, 1473, currentAVGJCT, 3175.72
+[LSM invokers], 17304, runningUsers(4), ListBuffer(user9, user11, user12, user22)
+[LSM invokers], 17304, queuingUsers(0), ListBuffer()
+[LSM invokers], 17304, GPU usage, 37 / 40
+[LSM invokers], 17304,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 17304,	user9,	ResNet50,	16,	4,	3621.0,	63393,	80697,	76521,	List(28, 29, 30, 31)
+[LSM invokers], 17304,	user11,	VGG19-I,	16,	16,	1270.0,	2797,	20101,	15507,	List(2, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 17304,	user12,	BERTLARGE,	16,	16,	429.0,	1029,	18333,	13342,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 17304,	user22,	GNMT,	1,	1,	694.0,	1035,	18339,	1117,	List(36)
+[LSM invokers], 17760, user23, submitted
+[LSM invokers], 17760, user23, scheduled
+[LSM invokers], 17760, runningUsers(5), ListBuffer(user9, user11, user12, user22, user23)
+[LSM invokers], 17760, queuingUsers(0), ListBuffer()
+[LSM invokers], 17760, GPU usage, 39 / 40
+[LSM invokers], 17760,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 17760,	user9,	ResNet50,	16,	4,	3541.0,	61993,	79753,	75577,	List(28, 29, 30, 31)
+[LSM invokers], 17760,	user11,	VGG19-I,	16,	16,	1092.0,	2405,	20165,	15571,	List(2, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 17760,	user12,	BERTLARGE,	16,	16,	237.0,	568,	18328,	13337,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 17760,	user22,	GNMT,	1,	1,	438.0,	653,	18413,	1191,	List(36)
+[LSM invokers], 17760,	user23,	ResNet50,	16,	2,	3918.0,	257801,	275561,	257801,	List(33, 34)
+[LSM invokers], 17932, user24, submitted
+[LSM invokers], 17932, user24, scheduled
+[LSM invokers], 17932, runningUsers(6), ListBuffer(user9, user11, user12, user22, user23, user24)
+[LSM invokers], 17932, queuingUsers(0), ListBuffer()
+[LSM invokers], 17932, GPU usage, 39 / 40
+[LSM invokers], 17932,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 17932,	user9,	ResNet50,	16,	4,	3501.0,	61293,	79225,	75049,	List(28, 29, 30, 31)
+[LSM invokers], 17932,	user11,	VGG19-I,	16,	8,	1014.0,	4758,	22690,	18096,	List(16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 17932,	user12,	BERTLARGE,	16,	16,	165.0,	396,	18328,	13337,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 17932,	user22,	GNMT,	1,	1,	374.0,	558,	18490,	1268,	List(36)
+[LSM invokers], 17932,	user23,	ResNet50,	16,	2,	3902.0,	256748,	274680,	256920,	List(33, 34)
+[LSM invokers], 17932,	user24,	GPT2-SMALL,	8,	8,	845.0,	1183,	19115,	1183,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18251, user25, submitted
+[LSM invokers], 18251, user25, scheduled
+[LSM invokers], 18251, runningUsers(7), ListBuffer(user9, user11, user12, user22, user23, user24, user25)
+[LSM invokers], 18251, queuingUsers(0), ListBuffer()
+[LSM invokers], 18251, GPU usage, 40 / 40
+[LSM invokers], 18251,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18251,	user9,	ResNet50,	16,	2,	3437.0,	226152,	244403,	240227,	List(30, 31)
+[LSM invokers], 18251,	user11,	VGG19-I,	16,	4,	920.0,	10878,	29129,	24535,	List(16, 17, 18, 19)
+[LSM invokers], 18251,	user12,	BERTLARGE,	16,	16,	37.0,	88,	18339,	13348,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 18251,	user22,	GNMT,	1,	1,	118.0,	176,	18427,	1205,	List(36)
+[LSM invokers], 18251,	user23,	ResNet50,	16,	1,	3870.0,	955741,	973992,	956232,	List(34)
+[LSM invokers], 18251,	user24,	GPT2-SMALL,	8,	8,	653.0,	914,	19165,	1233,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18251,	user25,	ResNeXt,	8,	8,	1509.0,	1516,	19767,	1516,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18251, user26, submitted
+[LSM invokers], 18251, user23, yielded
+[LSM invokers], 18251, user26, scheduled
+[LSM invokers], 18251, runningUsers(7), ListBuffer(user9, user11, user12, user22, user24, user25, user26)
+[LSM invokers], 18251, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 18251, GPU usage, 40 / 40
+[LSM invokers], 18251,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18251,	user9,	ResNet50,	16,	1,	3437.0,	848807,	867058,	862882,	List(31)
+[LSM invokers], 18251,	user11,	VGG19-I,	16,	2,	920.0,	37665,	55916,	51322,	List(18, 19)
+[LSM invokers], 18251,	user12,	BERTLARGE,	16,	16,	37.0,	88,	18339,	13348,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 18251,	user22,	GNMT,	1,	1,	118.0,	176,	18427,	1205,	List(36)
+[LSM invokers], 18251,	user24,	GPT2-SMALL,	8,	8,	653.0,	914,	19165,	1233,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18251,	user25,	ResNeXt,	8,	8,	1509.0,	1516,	19767,	1516,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18251,	user26,	VGG19-I,	8,	4,	865.0,	3361,	21612,	3361,	List(16, 17, 30, 34)
+[LSM invokers], 18326, user27, submitted
+[LSM invokers], 18326, user9, yielded
+[LSM invokers], 18326, user27, scheduled
+[LSM invokers], 18326, runningUsers(7), ListBuffer(user11, user12, user22, user24, user25, user26, user27)
+[LSM invokers], 18326, queuingUsers(2), ListBuffer(user9, user23)
+[LSM invokers], 18326, GPU usage, 40 / 40
+[LSM invokers], 18326,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18326,	user11,	VGG19-I,	16,	2,	912.0,	37338,	55664,	51070,	List(18, 19)
+[LSM invokers], 18326,	user12,	BERTLARGE,	16,	16,	13.0,	31,	18357,	13366,	List(0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32, 35)
+[LSM invokers], 18326,	user22,	GNMT,	1,	1,	54.0,	80,	18406,	1184,	List(36)
+[LSM invokers], 18326,	user24,	GPT2-SMALL,	8,	8,	589.0,	825,	19151,	1219,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18326,	user25,	ResNeXt,	8,	8,	1505.0,	1512,	19838,	1587,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18326,	user26,	VGG19-I,	8,	4,	861.0,	3345,	21671,	3420,	List(16, 17, 30, 34)
+[LSM invokers], 18326,	user27,	GNMT,	1,	1,	2079.0,	3102,	21428,	3102,	List(31)
+[LSM invokers], 18369, user12, finished, JCT, 13378, currentAVGJCT, 3712.68
+[LSM invokers], 18369, user23, scheduled
+[LSM invokers], 18369, user9, scheduled
+[LSM invokers], 18369, runningUsers(8), ListBuffer(user9, user11, user22, user23, user24, user25, user26, user27)
+[LSM invokers], 18369, queuingUsers(0), ListBuffer()
+[LSM invokers], 18369, GPU usage, 40 / 40
+[LSM invokers], 18369,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18369,	user9,	ResNet50,	16,	4,	3429.0,	60032,	78401,	74225,	List(4, 5, 6, 7)
+[LSM invokers], 18369,	user11,	VGG19-I,	16,	8,	906.0,	4251,	22620,	18026,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 18369,	user22,	GNMT,	1,	1,	54.0,	80,	18449,	1227,	List(36)
+[LSM invokers], 18369,	user23,	ResNet50,	16,	2,	3870.0,	254643,	273012,	255252,	List(0, 1)
+[LSM invokers], 18369,	user24,	GPT2-SMALL,	8,	8,	557.0,	780,	19149,	1217,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18369,	user25,	ResNeXt,	8,	8,	1465.0,	1472,	19841,	1590,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18369,	user26,	VGG19-I,	8,	8,	857.0,	1348,	19717,	1466,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 18369,	user27,	GNMT,	1,	1,	2079.0,	3102,	21471,	3145,	List(31)
+[LSM invokers], 18513, user22, finished, JCT, 1291, currentAVGJCT, 3591.60
+[LSM invokers], 18513, runningUsers(7), ListBuffer(user9, user11, user23, user24, user25, user26, user27)
+[LSM invokers], 18513, queuingUsers(0), ListBuffer()
+[LSM invokers], 18513, GPU usage, 39 / 40
+[LSM invokers], 18513,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18513,	user9,	ResNet50,	16,	4,	3421.0,	59892,	78405,	74229,	List(4, 5, 6, 7)
+[LSM invokers], 18513,	user11,	VGG19-I,	16,	8,	904.0,	4242,	22755,	18161,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 18513,	user23,	ResNet50,	16,	2,	3862.0,	254116,	272629,	254869,	List(0, 1)
+[LSM invokers], 18513,	user24,	GPT2-SMALL,	8,	8,	461.0,	645,	19158,	1226,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18513,	user25,	ResNeXt,	8,	8,	1329.0,	1335,	19848,	1597,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18513,	user26,	VGG19-I,	8,	8,	793.0,	1247,	19760,	1509,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 18513,	user27,	GNMT,	1,	1,	2015.0,	3006,	21519,	3193,	List(31)
+[LSM invokers], 18707, user28, submitted
+[LSM invokers], 18707, user28, scheduled
+[LSM invokers], 18707, runningUsers(8), ListBuffer(user9, user11, user23, user24, user25, user26, user27, user28)
+[LSM invokers], 18707, queuingUsers(0), ListBuffer()
+[LSM invokers], 18707, GPU usage, 40 / 40
+[LSM invokers], 18707,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 18707,	user9,	ResNet50,	16,	4,	3389.0,	59332,	78039,	73863,	List(4, 5, 6, 7)
+[LSM invokers], 18707,	user11,	VGG19-I,	16,	8,	864.0,	4054,	22761,	18167,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 18707,	user23,	ResNet50,	16,	2,	3838.0,	252537,	271244,	253484,	List(0, 1)
+[LSM invokers], 18707,	user24,	GPT2-SMALL,	8,	8,	333.0,	466,	19173,	1241,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 18707,	user25,	ResNeXt,	8,	8,	1129.0,	1134,	19841,	1590,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 18707,	user26,	VGG19-I,	8,	8,	653.0,	1027,	19734,	1483,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 18707,	user27,	GNMT,	1,	1,	1951.0,	2911,	21618,	3292,	List(31)
+[LSM invokers], 18707,	user28,	ResNeXt,	1,	1,	1770.0,	1535,	20242,	1535,	List(36)
+[LSM invokers], 19160, user29, submitted
+[LSM invokers], 19160, user23, yielded
+[LSM invokers], 19160, user29, scheduled
+[LSM invokers], 19160, runningUsers(8), ListBuffer(user9, user11, user24, user25, user26, user27, user28, user29)
+[LSM invokers], 19160, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 19160, GPU usage, 40 / 40
+[LSM invokers], 19160,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19160,	user9,	ResNet50,	16,	4,	3293.0,	57651,	76811,	72635,	List(4, 5, 6, 7)
+[LSM invokers], 19160,	user11,	VGG19-I,	16,	8,	742.0,	3482,	22642,	18048,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 19160,	user24,	GPT2-SMALL,	8,	8,	-19.0,	1,	19161,	1229,	List(2, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19160,	user25,	ResNeXt,	8,	8,	665.0,	668,	19828,	1577,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 19160,	user26,	VGG19-I,	8,	8,	321.0,	505,	19665,	1414,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19160,	user27,	GNMT,	1,	1,	1695.0,	2529,	21689,	3363,	List(31)
+[LSM invokers], 19160,	user28,	ResNeXt,	1,	1,	1258.0,	1091,	20251,	1544,	List(36)
+[LSM invokers], 19160,	user29,	ResNeXt,	2,	2,	1686.0,	1517,	20677,	1517,	List(0, 1)
+[LSM invokers], 19194, user24, finished, JCT, 1262, currentAVGJCT, 3480.67
+[LSM invokers], 19194, runningUsers(7), ListBuffer(user9, user11, user25, user26, user27, user28, user29)
+[LSM invokers], 19194, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 19194, GPU usage, 40 / 40
+[LSM invokers], 19194,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19194,	user9,	ResNet50,	16,	4,	3285.0,	57511,	76705,	72529,	List(4, 5, 6, 7)
+[LSM invokers], 19194,	user11,	VGG19-I,	16,	16,	732.0,	1612,	20806,	16212,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19194,	user25,	ResNeXt,	8,	8,	629.0,	632,	19826,	1575,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 19194,	user26,	VGG19-I,	8,	8,	293.0,	461,	19655,	1404,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19194,	user27,	GNMT,	1,	1,	1631.0,	2433,	21627,	3301,	List(31)
+[LSM invokers], 19194,	user28,	ResNeXt,	1,	1,	1226.0,	1063,	20257,	1550,	List(36)
+[LSM invokers], 19194,	user29,	ResNeXt,	2,	2,	1686.0,	1517,	20711,	1551,	List(0, 1)
+[LSM invokers], 19321, user30, submitted
+[LSM invokers], 19321, user9, yielded
+[LSM invokers], 19321, user30, scheduled
+[LSM invokers], 19321, runningUsers(7), ListBuffer(user11, user25, user26, user27, user28, user29, user30)
+[LSM invokers], 19321, queuingUsers(2), ListBuffer(user9, user23)
+[LSM invokers], 19321, GPU usage, 40 / 40
+[LSM invokers], 19321,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19321,	user11,	VGG19-I,	16,	16,	708.0,	1559,	20880,	16286,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19321,	user25,	ResNeXt,	8,	8,	497.0,	499,	19820,	1569,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 19321,	user26,	VGG19-I,	8,	8,	201.0,	316,	19637,	1386,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19321,	user27,	GNMT,	1,	1,	1567.0,	2338,	21659,	3333,	List(31)
+[LSM invokers], 19321,	user28,	ResNeXt,	1,	1,	1066.0,	924,	20245,	1538,	List(36)
+[LSM invokers], 19321,	user29,	ResNeXt,	2,	2,	1622.0,	1459,	20780,	1620,	List(0, 1)
+[LSM invokers], 19321,	user30,	ResNet50,	8,	4,	2085.0,	9851,	29172,	9851,	List(4, 5, 6, 7)
+[LSM invokers], 19600, user26, finished, JCT, 1349, currentAVGJCT, 3383.77
+[LSM invokers], 19600, user9, scheduled
+[LSM invokers], 19600, runningUsers(7), ListBuffer(user9, user11, user25, user27, user28, user29, user30)
+[LSM invokers], 19600, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 19600, GPU usage, 40 / 40
+[LSM invokers], 19600,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19600,	user9,	ResNet50,	16,	4,	3261.0,	57091,	76691,	72515,	List(4, 5, 6, 7)
+[LSM invokers], 19600,	user11,	VGG19-I,	16,	16,	590.0,	1299,	20899,	16305,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19600,	user25,	ResNeXt,	8,	8,	213.0,	214,	19814,	1563,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 19600,	user27,	GNMT,	1,	1,	1375.0,	2051,	21651,	3325,	List(31)
+[LSM invokers], 19600,	user28,	ResNeXt,	1,	1,	746.0,	647,	20247,	1540,	List(36)
+[LSM invokers], 19600,	user29,	ResNeXt,	2,	2,	1318.0,	1186,	20786,	1626,	List(0, 1)
+[LSM invokers], 19600,	user30,	ResNet50,	8,	8,	2021.0,	2474,	22074,	2753,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19817, user25, finished, JCT, 1566, currentAVGJCT, 3304.74
+[LSM invokers], 19817, user23, scheduled
+[LSM invokers], 19817, runningUsers(7), ListBuffer(user9, user11, user23, user27, user28, user29, user30)
+[LSM invokers], 19817, queuingUsers(0), ListBuffer()
+[LSM invokers], 19817, GPU usage, 40 / 40
+[LSM invokers], 19817,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19817,	user9,	ResNet50,	16,	8,	3245.0,	14253,	34070,	29894,	List(4, 5, 6, 7, 20, 21, 22, 23)
+[LSM invokers], 19817,	user11,	VGG19-I,	16,	16,	496.0,	1092,	20909,	16315,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19817,	user23,	ResNet50,	16,	4,	3790.0,	66352,	86169,	68409,	List(3, 28, 29, 33)
+[LSM invokers], 19817,	user27,	GNMT,	1,	1,	1247.0,	1860,	21677,	3351,	List(31)
+[LSM invokers], 19817,	user28,	ResNeXt,	1,	1,	490.0,	425,	20242,	1535,	List(36)
+[LSM invokers], 19817,	user29,	ResNeXt,	2,	2,	1078.0,	970,	20787,	1627,	List(0, 1)
+[LSM invokers], 19817,	user30,	ResNet50,	8,	8,	1909.0,	2337,	22154,	2833,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19854, user31, submitted
+[LSM invokers], 19854, user23, yielded
+[LSM invokers], 19854, user31, scheduled
+[LSM invokers], 19854, runningUsers(7), ListBuffer(user9, user11, user27, user28, user29, user30, user31)
+[LSM invokers], 19854, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 19854, GPU usage, 40 / 40
+[LSM invokers], 19854,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 19854,	user9,	ResNet50,	16,	4,	3237.0,	56671,	76525,	72349,	List(4, 5, 6, 7)
+[LSM invokers], 19854,	user11,	VGG19-I,	16,	16,	480.0,	1057,	20911,	16317,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 19854,	user27,	GNMT,	1,	1,	1247.0,	1860,	21714,	3388,	List(31)
+[LSM invokers], 19854,	user28,	ResNeXt,	1,	1,	458.0,	397,	20251,	1544,	List(36)
+[LSM invokers], 19854,	user29,	ResNeXt,	2,	2,	1030.0,	926,	20780,	1620,	List(0, 1)
+[LSM invokers], 19854,	user30,	ResNet50,	8,	8,	1877.0,	2298,	22152,	2831,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 19854,	user31,	VGG19-I,	8,	8,	1709.0,	2689,	22543,	2689,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 20107, user32, submitted
+[LSM invokers], 20107, user9, yielded
+[LSM invokers], 20107, user32, scheduled
+[LSM invokers], 20107, runningUsers(7), ListBuffer(user11, user27, user28, user29, user30, user31, user32)
+[LSM invokers], 20107, queuingUsers(2), ListBuffer(user9, user23)
+[LSM invokers], 20107, GPU usage, 40 / 40
+[LSM invokers], 20107,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 20107,	user11,	VGG19-I,	16,	16,	372.0,	819,	20926,	16332,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 20107,	user27,	GNMT,	1,	1,	1055.0,	1574,	21681,	3355,	List(31)
+[LSM invokers], 20107,	user28,	ResNeXt,	1,	1,	170.0,	147,	20254,	1547,	List(36)
+[LSM invokers], 20107,	user29,	ResNeXt,	2,	2,	742.0,	667,	20774,	1614,	List(0, 1)
+[LSM invokers], 20107,	user30,	ResNet50,	8,	8,	1669.0,	2043,	22150,	2829,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 20107,	user31,	VGG19-I,	8,	8,	1637.0,	2575,	22682,	2828,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 20107,	user32,	GNMT,	8,	4,	1474.0,	9248,	29355,	9248,	List(4, 5, 6, 7)
+[LSM invokers], 20277, user28, finished, JCT, 1570, currentAVGJCT, 3232.46
+[LSM invokers], 20277, user9, scheduled
+[LSM invokers], 20277, runningUsers(7), ListBuffer(user9, user11, user27, user29, user30, user31, user32)
+[LSM invokers], 20277, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 20277, GPU usage, 40 / 40
+[LSM invokers], 20277,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 20277,	user9,	ResNet50,	16,	1,	3189.0,	787560,	807837,	803661,	List(36)
+[LSM invokers], 20277,	user11,	VGG19-I,	16,	16,	306.0,	673,	20950,	16356,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 20277,	user27,	GNMT,	1,	1,	927.0,	1383,	21660,	3334,	List(31)
+[LSM invokers], 20277,	user29,	ResNeXt,	2,	2,	566.0,	509,	20786,	1626,	List(0, 1)
+[LSM invokers], 20277,	user30,	ResNet50,	8,	8,	1525.0,	1867,	22144,	2823,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 20277,	user31,	VGG19-I,	8,	8,	1521.0,	2393,	22670,	2816,	List(3, 20, 21, 22, 23, 28, 29, 33)
+[LSM invokers], 20277,	user32,	GNMT,	8,	4,	1466.0,	9198,	29475,	9368,	List(4, 5, 6, 7)
+[LSM invokers], 20292, user33, submitted
+[LSM invokers], 20292, user9, yielded
+[LSM invokers], 20292, user33, scheduled
+[LSM invokers], 20292, runningUsers(7), ListBuffer(user11, user27, user29, user30, user31, user32, user33)
+[LSM invokers], 20292, queuingUsers(2), ListBuffer(user9, user23)
+[LSM invokers], 20292, GPU usage, 40 / 40
+[LSM invokers], 20292,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 20292,	user11,	VGG19-I,	16,	16,	300.0,	660,	20952,	16358,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 20292,	user27,	GNMT,	1,	1,	927.0,	1383,	21675,	3349,	List(31)
+[LSM invokers], 20292,	user29,	ResNeXt,	2,	2,	550.0,	494,	20786,	1626,	List(0, 1)
+[LSM invokers], 20292,	user30,	ResNet50,	8,	8,	1525.0,	1867,	22159,	2838,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 20292,	user31,	VGG19-I,	8,	4,	1509.0,	5863,	26155,	6301,	List(20, 21, 22, 23)
+[LSM invokers], 20292,	user32,	GNMT,	8,	1,	1466.0,	106396,	126688,	106581,	List(7)
+[LSM invokers], 20292,	user33,	GNMT,	8,	8,	966.0,	1902,	22194,	1902,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 20451, user34, submitted
+[LSM invokers], 20451, user32, yielded
+[LSM invokers], 20451, user34, scheduled
+[LSM invokers], 20451, runningUsers(7), ListBuffer(user11, user27, user29, user30, user31, user33, user34)
+[LSM invokers], 20451, queuingUsers(3), ListBuffer(user9, user23, user32)
+[LSM invokers], 20451, GPU usage, 40 / 40
+[LSM invokers], 20451,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 20451,	user11,	VGG19-I,	16,	16,	232.0,	510,	20961,	16367,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 20451,	user27,	GNMT,	1,	1,	863.0,	1287,	21738,	3412,	List(31)
+[LSM invokers], 20451,	user29,	ResNeXt,	2,	2,	358.0,	322,	20773,	1613,	List(0, 1)
+[LSM invokers], 20451,	user30,	ResNet50,	8,	8,	1397.0,	1710,	22161,	2840,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 20451,	user31,	VGG19-I,	8,	1,	1449.0,	68736,	89187,	69333,	List(23)
+[LSM invokers], 20451,	user33,	GNMT,	8,	8,	966.0,	1902,	22353,	2061,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 20451,	user34,	VGG19-I,	8,	4,	1145.0,	4449,	24900,	4449,	List(7, 20, 21, 22)
+[LSM invokers], 20798, user29, finished, JCT, 1638, currentAVGJCT, 3168.68
+[LSM invokers], 20798, user32, scheduled
+[LSM invokers], 20798, runningUsers(7), ListBuffer(user11, user27, user30, user31, user32, user33, user34)
+[LSM invokers], 20798, queuingUsers(2), ListBuffer(user9, user23)
+[LSM invokers], 20798, GPU usage, 40 / 40
+[LSM invokers], 20798,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 20798,	user11,	VGG19-I,	16,	16,	84.0,	185,	20983,	16389,	List(2, 8, 9, 10, 11, 12, 13, 14, 15, 24, 25, 26, 27, 37, 38, 39)
+[LSM invokers], 20798,	user27,	GNMT,	1,	1,	607.0,	905,	21703,	3377,	List(31)
+[LSM invokers], 20798,	user30,	ResNet50,	8,	8,	1125.0,	1377,	22175,	2854,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 20798,	user31,	VGG19-I,	8,	2,	1409.0,	18738,	39536,	19682,	List(0, 1)
+[LSM invokers], 20798,	user32,	GNMT,	8,	1,	1466.0,	106396,	127194,	107087,	List(23)
+[LSM invokers], 20798,	user33,	GNMT,	8,	8,	958.0,	1886,	22684,	2392,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 20798,	user34,	VGG19-I,	8,	4,	1077.0,	4185,	24983,	4532,	List(7, 20, 21, 22)
+[LSM invokers], 21001, user11, finished, JCT, 16407, currentAVGJCT, 3677.85
+[LSM invokers], 21001, user23, scheduled
+[LSM invokers], 21001, user9, scheduled
+[LSM invokers], 21001, runningUsers(8), ListBuffer(user9, user23, user27, user30, user31, user32, user33, user34)
+[LSM invokers], 21001, queuingUsers(0), ListBuffer()
+[LSM invokers], 21001, GPU usage, 40 / 40
+[LSM invokers], 21001,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 21001,	user9,	ResNet50,	16,	2,	3189.0,	209833,	230834,	226658,	List(37, 38)
+[LSM invokers], 21001,	user23,	ResNet50,	16,	1,	3774.0,	932033,	953034,	935274,	List(39)
+[LSM invokers], 21001,	user27,	GNMT,	1,	1,	479.0,	714,	21715,	3389,	List(31)
+[LSM invokers], 21001,	user30,	ResNet50,	8,	8,	949.0,	1161,	22162,	2841,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 21001,	user31,	VGG19-I,	8,	8,	1377.0,	2166,	23167,	3313,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 21001,	user32,	GNMT,	8,	4,	1458.0,	9147,	30148,	10041,	List(20, 21, 22, 23)
+[LSM invokers], 21001,	user33,	GNMT,	8,	8,	878.0,	1729,	22730,	2438,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 21001,	user34,	VGG19-I,	8,	8,	993.0,	1562,	22563,	2112,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 21278, user35, submitted
+[LSM invokers], 21278, user23, yielded
+[LSM invokers], 21278, user35, scheduled
+[LSM invokers], 21278, runningUsers(8), ListBuffer(user9, user27, user30, user31, user32, user33, user34, user35)
+[LSM invokers], 21278, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 21278, GPU usage, 40 / 40
+[LSM invokers], 21278,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 21278,	user9,	ResNet50,	16,	2,	3165.0,	208254,	229532,	225356,	List(37, 38)
+[LSM invokers], 21278,	user27,	GNMT,	1,	1,	287.0,	428,	21706,	3380,	List(31)
+[LSM invokers], 21278,	user30,	ResNet50,	8,	8,	741.0,	907,	22185,	2864,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 21278,	user31,	VGG19-I,	8,	8,	1273.0,	2003,	23281,	3427,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 21278,	user32,	GNMT,	8,	4,	1394.0,	8746,	30024,	9917,	List(20, 21, 22, 23)
+[LSM invokers], 21278,	user33,	GNMT,	8,	8,	742.0,	1461,	22739,	2447,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 21278,	user34,	VGG19-I,	8,	8,	873.0,	1373,	22651,	2200,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 21278,	user35,	VGG19-I,	1,	1,	978.0,	1018,	22296,	1018,	List(39)
+[LSM invokers], 21669, user36, submitted
+[LSM invokers], 21669, user36, scheduled
+[LSM invokers], 21669, runningUsers(9), ListBuffer(user9, user27, user30, user31, user32, user33, user34, user35, user36)
+[LSM invokers], 21669, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 21669, GPU usage, 40 / 40
+[LSM invokers], 21669,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 21669,	user9,	ResNet50,	16,	1,	3125.0,	771755,	793424,	789248,	List(38)
+[LSM invokers], 21669,	user27,	GNMT,	1,	1,	95.0,	141,	21810,	3484,	List(31)
+[LSM invokers], 21669,	user30,	ResNet50,	8,	8,	421.0,	515,	22184,	2863,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 21669,	user31,	VGG19-I,	8,	8,	1045.0,	1644,	23313,	3459,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 21669,	user32,	GNMT,	8,	4,	1282.0,	8043,	29712,	9605,	List(20, 21, 22, 23)
+[LSM invokers], 21669,	user33,	GNMT,	8,	8,	550.0,	1083,	22752,	2460,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 21669,	user34,	VGG19-I,	8,	8,	621.0,	977,	22646,	2195,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 21669,	user35,	VGG19-I,	1,	1,	818.0,	851,	22520,	1242,	List(39)
+[LSM invokers], 21669,	user36,	ResNet50,	1,	1,	1318.0,	1513,	23182,	1513,	List(37)
+[LSM invokers], 21884, user27, finished, JCT, 3558, currentAVGJCT, 3673.41
+[LSM invokers], 21884, runningUsers(8), ListBuffer(user9, user30, user31, user32, user33, user34, user35, user36)
+[LSM invokers], 21884, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 21884, GPU usage, 40 / 40
+[LSM invokers], 21884,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 21884,	user9,	ResNet50,	16,	2,	3109.0,	204569,	226453,	222277,	List(31, 38)
+[LSM invokers], 21884,	user30,	ResNet50,	8,	8,	245.0,	299,	22183,	2862,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 21884,	user31,	VGG19-I,	8,	8,	925.0,	1455,	23339,	3485,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 21884,	user32,	GNMT,	8,	4,	1218.0,	7642,	29526,	9419,	List(20, 21, 22, 23)
+[LSM invokers], 21884,	user33,	GNMT,	8,	8,	438.0,	862,	22746,	2454,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 21884,	user34,	VGG19-I,	8,	8,	485.0,	763,	22647,	2196,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 21884,	user35,	VGG19-I,	1,	1,	594.0,	618,	22502,	1224,	List(39)
+[LSM invokers], 21884,	user36,	ResNet50,	1,	1,	1062.0,	1219,	23103,	1434,	List(37)
+[LSM invokers], 22004, user37, submitted
+[LSM invokers], 22004, user37, scheduled
+[LSM invokers], 22004, runningUsers(9), ListBuffer(user9, user30, user31, user32, user33, user34, user35, user36, user37)
+[LSM invokers], 22004, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 22004, GPU usage, 40 / 40
+[LSM invokers], 22004,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22004,	user9,	ResNet50,	16,	1,	3101.0,	765828,	787832,	783656,	List(31)
+[LSM invokers], 22004,	user30,	ResNet50,	8,	8,	149.0,	182,	22186,	2865,	List(16, 17, 18, 19, 30, 32, 34, 35)
+[LSM invokers], 22004,	user31,	VGG19-I,	8,	8,	857.0,	1348,	23352,	3498,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22004,	user32,	GNMT,	8,	4,	1186.0,	7441,	29445,	9338,	List(20, 21, 22, 23)
+[LSM invokers], 22004,	user33,	GNMT,	8,	8,	382.0,	752,	22756,	2464,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 22004,	user34,	VGG19-I,	8,	8,	405.0,	637,	22641,	2190,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 22004,	user35,	VGG19-I,	1,	1,	498.0,	518,	22522,	1244,	List(39)
+[LSM invokers], 22004,	user36,	ResNet50,	1,	1,	1062.0,	1219,	23223,	1554,	List(37)
+[LSM invokers], 22004,	user37,	GNMT,	1,	1,	860.0,	1283,	23287,	1283,	List(38)
+[LSM invokers], 22213, user30, finished, JCT, 2892, currentAVGJCT, 3645.50
+[LSM invokers], 22213, user23, scheduled
+[LSM invokers], 22213, runningUsers(9), ListBuffer(user9, user23, user31, user32, user33, user34, user35, user36, user37)
+[LSM invokers], 22213, queuingUsers(0), ListBuffer()
+[LSM invokers], 22213, GPU usage, 40 / 40
+[LSM invokers], 22213,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22213,	user9,	ResNet50,	16,	4,	3093.0,	54150,	76363,	72187,	List(16, 17, 18, 19)
+[LSM invokers], 22213,	user23,	ResNet50,	16,	1,	3742.0,	924130,	946343,	928583,	List(30)
+[LSM invokers], 22213,	user31,	VGG19-I,	8,	8,	737.0,	1159,	23372,	3518,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22213,	user32,	GNMT,	8,	8,	1130.0,	2225,	24438,	4331,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 22213,	user33,	GNMT,	8,	8,	278.0,	547,	22760,	2468,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 22213,	user34,	VGG19-I,	8,	8,	273.0,	429,	22642,	2191,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 22213,	user35,	VGG19-I,	1,	1,	274.0,	285,	22498,	1220,	List(39)
+[LSM invokers], 22213,	user36,	ResNet50,	1,	1,	806.0,	925,	23138,	1469,	List(37)
+[LSM invokers], 22213,	user37,	GNMT,	1,	1,	732.0,	1092,	23305,	1301,	List(38)
+[LSM invokers], 22548, user35, finished, JCT, 1270, currentAVGJCT, 3563.59
+[LSM invokers], 22548, runningUsers(8), ListBuffer(user9, user23, user31, user32, user33, user34, user36, user37)
+[LSM invokers], 22548, queuingUsers(0), ListBuffer()
+[LSM invokers], 22548, GPU usage, 40 / 40
+[LSM invokers], 22548,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22548,	user9,	ResNet50,	16,	4,	3045.0,	53309,	75857,	71681,	List(16, 17, 18, 19)
+[LSM invokers], 22548,	user23,	ResNet50,	16,	2,	3726.0,	245167,	267715,	249955,	List(30, 39)
+[LSM invokers], 22548,	user31,	VGG19-I,	8,	8,	545.0,	857,	23405,	3551,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22548,	user32,	GNMT,	8,	8,	1002.0,	1973,	24521,	4414,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 22548,	user33,	GNMT,	8,	8,	110.0,	216,	22764,	2472,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 22548,	user34,	VGG19-I,	8,	8,	53.0,	83,	22631,	2180,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 22548,	user36,	ResNet50,	1,	1,	550.0,	631,	23179,	1510,	List(37)
+[LSM invokers], 22548,	user37,	GNMT,	1,	1,	540.0,	805,	23353,	1349,	List(38)
+[LSM invokers], 22593, user38, submitted
+[LSM invokers], 22593, user23, yielded
+[LSM invokers], 22593, user38, scheduled
+[LSM invokers], 22593, runningUsers(8), ListBuffer(user9, user31, user32, user33, user34, user36, user37, user38)
+[LSM invokers], 22593, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 22593, GPU usage, 40 / 40
+[LSM invokers], 22593,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22593,	user9,	ResNet50,	16,	4,	3037.0,	53169,	75762,	71586,	List(16, 17, 18, 19)
+[LSM invokers], 22593,	user31,	VGG19-I,	8,	8,	517.0,	813,	23406,	3552,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22593,	user32,	GNMT,	8,	8,	978.0,	1926,	24519,	4412,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 22593,	user33,	GNMT,	8,	8,	86.0,	169,	22762,	2470,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 22593,	user34,	VGG19-I,	8,	8,	25.0,	39,	22632,	2181,	List(0, 1, 2, 7, 24, 25, 26, 27)
+[LSM invokers], 22593,	user36,	ResNet50,	1,	1,	550.0,	631,	23224,	1555,	List(37)
+[LSM invokers], 22593,	user37,	GNMT,	1,	1,	476.0,	710,	23303,	1299,	List(38)
+[LSM invokers], 22593,	user38,	GPT2-SMALL,	16,	2,	3085.0,	242605,	265198,	242605,	List(30, 39)
+[LSM invokers], 22639, user34, finished, JCT, 2188, currentAVGJCT, 3517.73
+[LSM invokers], 22639, user23, scheduled
+[LSM invokers], 22639, runningUsers(8), ListBuffer(user9, user23, user31, user32, user33, user36, user37, user38)
+[LSM invokers], 22639, queuingUsers(0), ListBuffer()
+[LSM invokers], 22639, GPU usage, 40 / 40
+[LSM invokers], 22639,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22639,	user9,	ResNet50,	16,	8,	3021.0,	13269,	35908,	31732,	List(16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 22639,	user23,	ResNet50,	16,	2,	3718.0,	244641,	267280,	249520,	List(0, 1)
+[LSM invokers], 22639,	user31,	VGG19-I,	8,	8,	493.0,	775,	23414,	3560,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22639,	user32,	GNMT,	8,	8,	954.0,	1878,	24517,	4410,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 22639,	user33,	GNMT,	8,	8,	70.0,	137,	22776,	2484,	List(3, 4, 5, 6, 28, 29, 33, 36)
+[LSM invokers], 22639,	user36,	ResNet50,	1,	1,	422.0,	484,	23123,	1454,	List(37)
+[LSM invokers], 22639,	user37,	GNMT,	1,	1,	476.0,	710,	23349,	1345,	List(38)
+[LSM invokers], 22639,	user38,	GPT2-SMALL,	16,	4,	3085.0,	62936,	85575,	62982,	List(2, 7, 30, 39)
+[LSM invokers], 22778, user33, finished, JCT, 2486, currentAVGJCT, 3484.45
+[LSM invokers], 22778, runningUsers(7), ListBuffer(user9, user23, user31, user32, user36, user37, user38)
+[LSM invokers], 22778, queuingUsers(0), ListBuffer()
+[LSM invokers], 22778, GPU usage, 40 / 40
+[LSM invokers], 22778,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 22778,	user9,	ResNet50,	16,	16,	3005.0,	4097,	26875,	22699,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 22778,	user23,	ResNet50,	16,	2,	3710.0,	244115,	266893,	249133,	List(0, 1)
+[LSM invokers], 22778,	user31,	VGG19-I,	8,	8,	413.0,	649,	23427,	3573,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 22778,	user32,	GNMT,	8,	8,	882.0,	1737,	24515,	4408,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 22778,	user36,	ResNet50,	1,	1,	294.0,	337,	23115,	1446,	List(37)
+[LSM invokers], 22778,	user37,	GNMT,	1,	1,	348.0,	519,	23297,	1293,	List(38)
+[LSM invokers], 22778,	user38,	GPT2-SMALL,	16,	4,	3069.0,	62610,	85388,	62795,	List(2, 7, 30, 39)
+[LSM invokers], 23359, user36, finished, JCT, 1690, currentAVGJCT, 3428.38
+[LSM invokers], 23359, runningUsers(6), ListBuffer(user9, user23, user31, user32, user37, user38)
+[LSM invokers], 23359, queuingUsers(0), ListBuffer()
+[LSM invokers], 23359, GPU usage, 39 / 40
+[LSM invokers], 23359,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 23359,	user9,	ResNet50,	16,	16,	2605.0,	3551,	26910,	22734,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 23359,	user23,	ResNet50,	16,	2,	3654.0,	240430,	263789,	246029,	List(0, 1)
+[LSM invokers], 23359,	user31,	VGG19-I,	8,	8,	81.0,	127,	23486,	3632,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 23359,	user32,	GNMT,	8,	8,	586.0,	1154,	24513,	4406,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 23359,	user37,	GNMT,	1,	1,	-36.0,	1,	23360,	1356,	List(38)
+[LSM invokers], 23359,	user38,	GPT2-SMALL,	16,	4,	2957.0,	60325,	83684,	61091,	List(2, 7, 30, 39)
+[LSM invokers], 23444, user37, finished, JCT, 1440, currentAVGJCT, 3368.12
+[LSM invokers], 23444, user23, yielded
+[LSM invokers], 23444, runningUsers(4), ListBuffer(user9, user31, user32, user38)
+[LSM invokers], 23444, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 23444, GPU usage, 40 / 40
+[LSM invokers], 23444,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 23444,	user9,	ResNet50,	16,	16,	2533.0,	3453,	26897,	22721,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 23444,	user31,	VGG19-I,	8,	8,	33.0,	51,	23495,	3641,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 23444,	user32,	GNMT,	8,	8,	538.0,	1059,	24503,	4396,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 23444,	user38,	GPT2-SMALL,	16,	8,	2941.0,	16092,	39536,	16943,	List(0, 1, 2, 7, 30, 37, 38, 39)
+[LSM invokers], 23511, user31, finished, JCT, 3657, currentAVGJCT, 3376.62
+[LSM invokers], 23511, runningUsers(3), ListBuffer(user9, user32, user38)
+[LSM invokers], 23511, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 23511, GPU usage, 40 / 40
+[LSM invokers], 23511,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 23511,	user9,	ResNet50,	16,	16,	2485.0,	3388,	26899,	22723,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 23511,	user32,	GNMT,	8,	8,	506.0,	996,	24507,	4400,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 23511,	user38,	GPT2-SMALL,	16,	16,	2925.0,	4100,	27611,	5018,	List(0, 1, 2, 7, 8, 9, 10, 11, 12, 13, 14, 15, 30, 37, 38, 39)
+[LSM invokers], 23767, user39, submitted
+[LSM invokers], 23767, user23, scheduled
+[LSM invokers], 23767, user39, scheduled
+[LSM invokers], 23767, runningUsers(5), ListBuffer(user9, user23, user32, user38, user39)
+[LSM invokers], 23767, queuingUsers(0), ListBuffer()
+[LSM invokers], 23767, GPU usage, 40 / 40
+[LSM invokers], 23767,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 23767,	user9,	ResNet50,	16,	16,	2277.0,	3104,	26871,	22695,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 23767,	user23,	ResNet50,	16,	4,	3646.0,	63831,	87598,	69838,	List(0, 1, 2, 37)
+[LSM invokers], 23767,	user32,	GNMT,	8,	8,	378.0,	744,	24511,	4404,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 23767,	user38,	GPT2-SMALL,	16,	8,	2845.0,	15566,	39333,	16740,	List(8, 9, 10, 11, 12, 13, 14, 15)
+[LSM invokers], 23767,	user39,	GPT2-SMALL,	4,	4,	973.0,	1299,	25066,	1299,	List(7, 30, 38, 39)
+[LSM invokers], 24147, user40, submitted
+[LSM invokers], 24147, user23, yielded
+[LSM invokers], 24147, user40, scheduled
+[LSM invokers], 24147, runningUsers(5), ListBuffer(user9, user32, user38, user39, user40)
+[LSM invokers], 24147, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 24147, GPU usage, 40 / 40
+[LSM invokers], 24147,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 24147,	user9,	ResNet50,	16,	16,	1981.0,	2701,	26848,	22672,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 24147,	user32,	GNMT,	8,	8,	186.0,	366,	24513,	4406,	List(20, 21, 22, 23, 31, 32, 34, 35)
+[LSM invokers], 24147,	user38,	GPT2-SMALL,	16,	4,	2701.0,	55102,	79249,	56656,	List(8, 9, 10, 11)
+[LSM invokers], 24147,	user39,	GPT2-SMALL,	4,	4,	717.0,	957,	25104,	1337,	List(7, 30, 38, 39)
+[LSM invokers], 24147,	user40,	ResNet50,	16,	8,	3317.0,	14569,	38716,	14569,	List(0, 1, 2, 12, 13, 14, 15, 37)
+[LSM invokers], 24528, user32, finished, JCT, 4421, currentAVGJCT, 3406.46
+[LSM invokers], 24528, runningUsers(4), ListBuffer(user9, user38, user39, user40)
+[LSM invokers], 24528, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 24528, GPU usage, 40 / 40
+[LSM invokers], 24528,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 24528,	user9,	ResNet50,	16,	16,	1677.0,	2286,	26814,	22638,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 24528,	user38,	GPT2-SMALL,	16,	16,	2621.0,	3674,	28202,	5609,	List(0, 1, 2, 8, 9, 10, 11, 20, 21, 22, 23, 31, 32, 34, 35, 37)
+[LSM invokers], 24528,	user39,	GPT2-SMALL,	4,	4,	397.0,	530,	25058,	1291,	List(7, 30, 38, 39)
+[LSM invokers], 24528,	user40,	ResNet50,	16,	4,	3197.0,	55970,	80498,	56351,	List(12, 13, 14, 15)
+[LSM invokers], 24878, user41, submitted
+[LSM invokers], 24878, user41, scheduled
+[LSM invokers], 24878, runningUsers(5), ListBuffer(user9, user38, user39, user40, user41)
+[LSM invokers], 24878, queuingUsers(1), ListBuffer(user23)
+[LSM invokers], 24878, GPU usage, 40 / 40
+[LSM invokers], 24878,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 24878,	user9,	ResNet50,	16,	16,	1405.0,	1915,	26793,	22617,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 24878,	user38,	GPT2-SMALL,	16,	8,	2477.0,	13553,	38431,	15838,	List(8, 9, 10, 11, 20, 21, 22, 23)
+[LSM invokers], 24878,	user39,	GPT2-SMALL,	4,	4,	141.0,	188,	25066,	1299,	List(7, 30, 38, 39)
+[LSM invokers], 24878,	user40,	ResNet50,	16,	4,	3125.0,	54710,	79588,	55441,	List(12, 13, 14, 15)
+[LSM invokers], 24878,	user41,	BERTLARGE,	8,	8,	987.0,	1957,	26835,	1957,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 25024, user42, submitted
+[LSM invokers], 25024, user40, yielded
+[LSM invokers], 25024, user42, scheduled
+[LSM invokers], 25024, runningUsers(5), ListBuffer(user9, user38, user39, user41, user42)
+[LSM invokers], 25024, queuingUsers(2), ListBuffer(user23, user40)
+[LSM invokers], 25024, GPU usage, 40 / 40
+[LSM invokers], 25024,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 25024,	user9,	ResNet50,	16,	16,	1293.0,	1763,	26787,	22611,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 25024,	user38,	GPT2-SMALL,	16,	4,	2413.0,	49227,	74251,	51658,	List(8, 9, 10, 11)
+[LSM invokers], 25024,	user39,	GPT2-SMALL,	4,	4,	13.0,	17,	25041,	1274,	List(7, 30, 38, 39)
+[LSM invokers], 25024,	user41,	BERTLARGE,	8,	8,	923.0,	1830,	26854,	1976,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 25024,	user42,	ResNeXt,	8,	8,	2214.0,	2225,	27249,	2225,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 25187, user39, finished, JCT, 1420, currentAVGJCT, 3351.28
+[LSM invokers], 25187, runningUsers(4), ListBuffer(user9, user38, user41, user42)
+[LSM invokers], 25187, queuingUsers(2), ListBuffer(user23, user40)
+[LSM invokers], 25187, GPU usage, 40 / 40
+[LSM invokers], 25187,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 25187,	user9,	ResNet50,	16,	16,	1197.0,	1632,	26819,	22643,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 25187,	user38,	GPT2-SMALL,	16,	8,	2381.0,	13027,	38214,	15621,	List(7, 8, 9, 10, 11, 30, 38, 39)
+[LSM invokers], 25187,	user41,	BERTLARGE,	8,	8,	859.0,	1703,	26890,	2012,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 25187,	user42,	ResNeXt,	8,	8,	2182.0,	2192,	27379,	2355,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 26550, user43, submitted
+[LSM invokers], 26550, user43, queued
+[LSM invokers], 26550, runningUsers(4), ListBuffer(user9, user38, user41, user42)
+[LSM invokers], 26550, queuingUsers(3), ListBuffer(user23, user40, user43)
+[LSM invokers], 26550, GPU usage, 40 / 40
+[LSM invokers], 26550,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 26550,	user9,	ResNet50,	16,	16,	157.0,	214,	26764,	22588,	List(3, 4, 5, 6, 16, 17, 18, 19, 24, 25, 26, 27, 28, 29, 33, 36)
+[LSM invokers], 26550,	user38,	GPT2-SMALL,	16,	8,	1869.0,	10226,	36776,	14183,	List(7, 8, 9, 10, 11, 30, 38, 39)
+[LSM invokers], 26550,	user41,	BERTLARGE,	8,	8,	203.0,	402,	26952,	2074,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 26550,	user42,	ResNeXt,	8,	8,	786.0,	789,	27339,	2315,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 26756, user9, finished, JCT, 22580, currentAVGJCT, 3870.97
+[LSM invokers], 26756, user40, scheduled
+[LSM invokers], 26756, runningUsers(4), ListBuffer(user38, user40, user41, user42)
+[LSM invokers], 26756, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 26756, GPU usage, 40 / 40
+[LSM invokers], 26756,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 26756,	user38,	GPT2-SMALL,	16,	16,	1789.0,	2508,	29264,	6671,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 26756,	user40,	ResNet50,	16,	8,	3093.0,	13585,	40341,	16194,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 26756,	user41,	BERTLARGE,	8,	8,	107.0,	212,	26968,	2090,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 26756,	user42,	ResNeXt,	8,	8,	578.0,	580,	27336,	2312,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 26990, user44, submitted
+[LSM invokers], 26990, user40, yielded
+[LSM invokers], 26990, user44, scheduled
+[LSM invokers], 26990, runningUsers(4), ListBuffer(user38, user41, user42, user44)
+[LSM invokers], 26990, queuingUsers(3), ListBuffer(user23, user40, user43)
+[LSM invokers], 26990, GPU usage, 40 / 40
+[LSM invokers], 26990,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 26990,	user38,	GPT2-SMALL,	16,	16,	1693.0,	2373,	29363,	6770,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 26990,	user41,	BERTLARGE,	8,	8,	-5.0,	1,	26991,	2113,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 26990,	user42,	ResNeXt,	8,	8,	338.0,	339,	27329,	2305,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 26990,	user44,	ResNeXt,	8,	8,	3237.0,	3253,	30243,	3253,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 26992, user41, finished, JCT, 2114, currentAVGJCT, 3824.74
+[LSM invokers], 26992, user40, scheduled
+[LSM invokers], 26992, runningUsers(4), ListBuffer(user38, user40, user42, user44)
+[LSM invokers], 26992, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 26992, GPU usage, 40 / 40
+[LSM invokers], 26992,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 26992,	user38,	GPT2-SMALL,	16,	16,	1693.0,	2373,	29365,	6772,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 26992,	user40,	ResNet50,	16,	8,	3029.0,	13304,	40296,	16149,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 26992,	user42,	ResNeXt,	8,	8,	334.0,	335,	27327,	2303,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 26992,	user44,	ResNeXt,	8,	8,	3237.0,	3253,	30245,	3255,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 27320, user42, finished, JCT, 2296, currentAVGJCT, 3785.54
+[LSM invokers], 27320, runningUsers(3), ListBuffer(user38, user40, user44)
+[LSM invokers], 27320, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 27320, GPU usage, 40 / 40
+[LSM invokers], 27320,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 27320,	user38,	GPT2-SMALL,	16,	16,	1453.0,	2037,	29357,	6764,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 27320,	user40,	ResNet50,	16,	16,	2917.0,	3977,	31297,	7150,	List(0, 1, 2, 12, 13, 14, 15, 20, 21, 22, 23, 31, 32, 34, 35, 37)
+[LSM invokers], 27320,	user44,	ResNeXt,	8,	8,	2973.0,	2987,	30307,	3317,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 27654, user45, submitted
+[LSM invokers], 27654, user45, scheduled
+[LSM invokers], 27654, runningUsers(4), ListBuffer(user38, user40, user44, user45)
+[LSM invokers], 27654, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 27654, GPU usage, 40 / 40
+[LSM invokers], 27654,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 27654,	user38,	GPT2-SMALL,	16,	16,	1213.0,	1700,	29354,	6761,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 27654,	user40,	ResNet50,	16,	8,	2725.0,	11969,	39623,	15476,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 27654,	user44,	ResNeXt,	8,	8,	2625.0,	2638,	30292,	3302,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 27654,	user45,	VGG19-I,	8,	8,	622.0,	978,	28632,	978,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 28661, user45, finished, JCT, 1007, currentAVGJCT, 3716.08
+[LSM invokers], 28661, runningUsers(3), ListBuffer(user38, user40, user44)
+[LSM invokers], 28661, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 28661, GPU usage, 40 / 40
+[LSM invokers], 28661,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 28661,	user38,	GPT2-SMALL,	16,	16,	461.0,	646,	29307,	6714,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 28661,	user40,	ResNet50,	16,	16,	2309.0,	3148,	31809,	7662,	List(0, 1, 2, 12, 13, 14, 15, 20, 21, 22, 23, 31, 32, 34, 35, 37)
+[LSM invokers], 28661,	user44,	ResNeXt,	8,	8,	1593.0,	1600,	30261,	3271,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 28831, user46, submitted
+[LSM invokers], 28831, user46, scheduled
+[LSM invokers], 28831, runningUsers(4), ListBuffer(user38, user40, user44, user46)
+[LSM invokers], 28831, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 28831, GPU usage, 40 / 40
+[LSM invokers], 28831,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 28831,	user38,	GPT2-SMALL,	16,	16,	333.0,	466,	29297,	6704,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 28831,	user40,	ResNet50,	16,	8,	2229.0,	9790,	38621,	14474,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 28831,	user44,	ResNeXt,	8,	8,	1417.0,	1424,	30255,	3265,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 28831,	user46,	ResNet50,	8,	8,	704.0,	862,	29693,	862,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 28853, user47, submitted
+[LSM invokers], 28853, user40, yielded
+[LSM invokers], 28853, user47, scheduled
+[LSM invokers], 28853, runningUsers(4), ListBuffer(user38, user44, user46, user47)
+[LSM invokers], 28853, queuingUsers(3), ListBuffer(user23, user40, user43)
+[LSM invokers], 28853, GPU usage, 40 / 40
+[LSM invokers], 28853,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 28853,	user38,	GPT2-SMALL,	16,	16,	317.0,	444,	29297,	6704,	List(4, 5, 6, 7, 8, 9, 10, 11, 16, 17, 18, 19, 24, 25, 26, 27)
+[LSM invokers], 28853,	user44,	ResNeXt,	8,	8,	1397.0,	1403,	30256,	3266,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 28853,	user46,	ResNet50,	8,	8,	688.0,	842,	29695,	864,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 28853,	user47,	ResNet50,	16,	8,	1536.0,	6746,	35599,	6746,	List(12, 13, 14, 15, 20, 21, 22, 23)
+[LSM invokers], 29370, user38, finished, JCT, 6777, currentAVGJCT, 3790.73
+[LSM invokers], 29370, user40, scheduled
+[LSM invokers], 29370, runningUsers(4), ListBuffer(user40, user44, user46, user47)
+[LSM invokers], 29370, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 29370, GPU usage, 40 / 40
+[LSM invokers], 29370,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 29370,	user40,	ResNet50,	16,	8,	2221.0,	9755,	39125,	14978,	List(4, 5, 6, 7, 8, 9, 10, 11)
+[LSM invokers], 29370,	user44,	ResNeXt,	8,	8,	865.0,	869,	30239,	3249,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 29370,	user46,	ResNet50,	8,	8,	304.0,	372,	29742,	911,	List(0, 1, 2, 31, 32, 34, 35, 37)
+[LSM invokers], 29370,	user47,	ResNet50,	16,	16,	1360.0,	1854,	31224,	2371,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 29765, user46, finished, JCT, 934, currentAVGJCT, 3722.71
+[LSM invokers], 29765, runningUsers(3), ListBuffer(user40, user44, user47)
+[LSM invokers], 29765, queuingUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 29765, GPU usage, 40 / 40
+[LSM invokers], 29765,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 29765,	user40,	ResNet50,	16,	16,	2117.0,	2886,	32651,	8504,	List(0, 1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 31, 32, 34, 35, 37)
+[LSM invokers], 29765,	user44,	ResNeXt,	8,	8,	457.0,	459,	30224,	3234,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 29765,	user47,	ResNet50,	16,	16,	1144.0,	1559,	31324,	2471,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 29983, user48, submitted
+[LSM invokers], 29983, user23, scheduled
+[LSM invokers], 29983, user43, scheduled
+[LSM invokers], 29983, user48, scheduled
+[LSM invokers], 29983, runningUsers(6), ListBuffer(user23, user40, user43, user44, user47, user48)
+[LSM invokers], 29983, queuingUsers(0), ListBuffer()
+[LSM invokers], 29983, GPU usage, 39 / 40
+[LSM invokers], 29983,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 29983,	user23,	ResNet50,	16,	2,	3574.0,	235166,	265149,	247389,	List(32, 34)
+[LSM invokers], 29983,	user40,	ResNet50,	16,	8,	1997.0,	8771,	38754,	14607,	List(4, 5, 6, 7, 8, 9, 10, 11)
+[LSM invokers], 29983,	user43,	ResNet50,	16,	4,	3359.0,	58807,	88790,	62240,	List(0, 1, 2, 31)
+[LSM invokers], 29983,	user44,	ResNeXt,	8,	8,	233.0,	234,	30217,	3227,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 29983,	user47,	ResNet50,	16,	16,	968.0,	1319,	31302,	2449,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 29983,	user48,	ResNeXt,	1,	1,	1132.0,	982,	30965,	982,	List(35)
+[LSM invokers], 30115, user49, submitted
+[LSM invokers], 30115, user49, scheduled
+[LSM invokers], 30115, runningUsers(7), ListBuffer(user23, user40, user43, user44, user47, user48, user49)
+[LSM invokers], 30115, queuingUsers(0), ListBuffer()
+[LSM invokers], 30115, GPU usage, 40 / 40
+[LSM invokers], 30115,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 30115,	user23,	ResNet50,	16,	1,	3566.0,	880665,	910780,	893020,	List(34)
+[LSM invokers], 30115,	user40,	ResNet50,	16,	4,	1941.0,	33981,	64096,	39949,	List(4, 5, 6, 7)
+[LSM invokers], 30115,	user43,	ResNet50,	16,	2,	3351.0,	220493,	250608,	224058,	List(1, 2)
+[LSM invokers], 30115,	user44,	ResNeXt,	8,	8,	93.0,	93,	30208,	3218,	List(3, 28, 29, 30, 33, 36, 38, 39)
+[LSM invokers], 30115,	user47,	ResNet50,	16,	16,	864.0,	1178,	31293,	2440,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 30115,	user48,	ResNeXt,	1,	1,	1036.0,	898,	31013,	1030,	List(35)
+[LSM invokers], 30115,	user49,	ResNeXt,	8,	8,	1547.0,	1554,	31669,	1554,	List(0, 8, 9, 10, 11, 31, 32, 37)
+[LSM invokers], 30211, user44, finished, JCT, 3221, currentAVGJCT, 3711.05
+[LSM invokers], 30211, runningUsers(6), ListBuffer(user23, user40, user43, user47, user48, user49)
+[LSM invokers], 30211, queuingUsers(0), ListBuffer()
+[LSM invokers], 30211, GPU usage, 39 / 40
+[LSM invokers], 30211,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 30211,	user23,	ResNet50,	16,	2,	3558.0,	234113,	264324,	246564,	List(33, 34)
+[LSM invokers], 30211,	user40,	ResNet50,	16,	8,	1917.0,	8420,	38631,	14484,	List(1, 2, 3, 4, 5, 6, 7, 28)
+[LSM invokers], 30211,	user43,	ResNet50,	16,	4,	3343.0,	58526,	88737,	62187,	List(29, 36, 38, 39)
+[LSM invokers], 30211,	user47,	ResNet50,	16,	16,	784.0,	1068,	31279,	2426,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 30211,	user48,	ResNeXt,	1,	1,	908.0,	787,	30998,	1015,	List(35)
+[LSM invokers], 30211,	user49,	ResNeXt,	8,	8,	1527.0,	1534,	31745,	1630,	List(0, 8, 9, 10, 11, 31, 32, 37)
+[LSM invokers], 30415, user50, submitted
+[LSM invokers], 30415, user50, scheduled
+[LSM invokers], 30415, runningUsers(7), ListBuffer(user23, user40, user43, user47, user48, user49, user50)
+[LSM invokers], 30415, queuingUsers(0), ListBuffer()
+[LSM invokers], 30415, GPU usage, 40 / 40
+[LSM invokers], 30415,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 30415,	user23,	ResNet50,	16,	2,	3542.0,	233060,	263475,	245715,	List(33, 34)
+[LSM invokers], 30415,	user40,	ResNet50,	16,	8,	1861.0,	8174,	38589,	14442,	List(1, 2, 3, 4, 5, 6, 7, 28)
+[LSM invokers], 30415,	user43,	ResNet50,	16,	4,	3311.0,	57966,	88381,	61831,	List(29, 36, 38, 39)
+[LSM invokers], 30415,	user47,	ResNet50,	16,	16,	624.0,	850,	31265,	2412,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 30415,	user48,	ResNeXt,	1,	1,	716.0,	621,	31036,	1053,	List(35)
+[LSM invokers], 30415,	user49,	ResNeXt,	8,	8,	1327.0,	1333,	31748,	1633,	List(0, 8, 9, 10, 11, 31, 32, 37)
+[LSM invokers], 30415,	user50,	VGG19-I,	1,	1,	1284.0,	1337,	31752,	1337,	List(30)
+[LSM invokers], 31109, user48, finished, JCT, 1126, currentAVGJCT, 3652.30
+[LSM invokers], 31109, runningUsers(6), ListBuffer(user23, user40, user43, user47, user49, user50)
+[LSM invokers], 31109, queuingUsers(0), ListBuffer()
+[LSM invokers], 31109, GPU usage, 39 / 40
+[LSM invokers], 31109,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 31109,	user23,	ResNet50,	16,	2,	3470.0,	228323,	259432,	241672,	List(33, 34)
+[LSM invokers], 31109,	user40,	ResNet50,	16,	8,	1573.0,	6909,	38018,	13871,	List(1, 2, 3, 4, 5, 6, 7, 28)
+[LSM invokers], 31109,	user43,	ResNet50,	16,	4,	3167.0,	55445,	86554,	60004,	List(29, 36, 38, 39)
+[LSM invokers], 31109,	user47,	ResNet50,	16,	16,	80.0,	109,	31218,	2365,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 31109,	user49,	ResNeXt,	8,	8,	623.0,	626,	31735,	1620,	List(0, 8, 9, 10, 11, 31, 32, 37)
+[LSM invokers], 31109,	user50,	VGG19-I,	1,	1,	644.0,	670,	31779,	1364,	List(30)
+[LSM invokers], 31213, user47, finished, JCT, 2360, currentAVGJCT, 3623.58
+[LSM invokers], 31213, runningUsers(5), ListBuffer(user23, user40, user43, user49, user50)
+[LSM invokers], 31213, queuingUsers(0), ListBuffer()
+[LSM invokers], 31213, GPU usage, 37 / 40
+[LSM invokers], 31213,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 31213,	user23,	ResNet50,	16,	4,	3462.0,	60610,	91823,	74063,	List(4, 5, 6, 7)
+[LSM invokers], 31213,	user40,	ResNet50,	16,	16,	1533.0,	2090,	33303,	9156,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 31213,	user43,	ResNet50,	16,	8,	3143.0,	13805,	45018,	18468,	List(1, 2, 3, 33, 34, 35, 36, 38)
+[LSM invokers], 31213,	user49,	ResNeXt,	8,	8,	511.0,	513,	31726,	1611,	List(0, 8, 9, 10, 11, 31, 32, 37)
+[LSM invokers], 31213,	user50,	VGG19-I,	1,	1,	516.0,	537,	31750,	1335,	List(30)
+[LSM invokers], 31708, user49, finished, JCT, 1593, currentAVGJCT, 3579.43
+[LSM invokers], 31708, runningUsers(4), ListBuffer(user23, user40, user43, user50)
+[LSM invokers], 31708, queuingUsers(0), ListBuffer()
+[LSM invokers], 31708, GPU usage, 37 / 40
+[LSM invokers], 31708,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 31708,	user23,	ResNet50,	16,	4,	3382.0,	59209,	90917,	73157,	List(4, 5, 6, 7)
+[LSM invokers], 31708,	user40,	ResNet50,	16,	16,	1237.0,	1686,	33394,	9247,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 31708,	user43,	ResNet50,	16,	16,	2983.0,	4067,	35775,	9225,	List(0, 1, 2, 3, 8, 9, 10, 11, 32, 33, 34, 35, 36, 37, 38, 39)
+[LSM invokers], 31708,	user50,	VGG19-I,	1,	1,	36.0,	37,	31745,	1330,	List(30)
+[LSM invokers], 31777, user50, finished, JCT, 1362, currentAVGJCT, 3532.26
+[LSM invokers], 31777, runningUsers(3), ListBuffer(user23, user40, user43)
+[LSM invokers], 31777, queuingUsers(0), ListBuffer()
+[LSM invokers], 31777, GPU usage, 40 / 40
+[LSM invokers], 31777,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 31777,	user23,	ResNet50,	16,	8,	3366.0,	14784,	46561,	28801,	List(4, 5, 6, 7, 28, 29, 30, 31)
+[LSM invokers], 31777,	user40,	ResNet50,	16,	16,	1189.0,	1621,	33398,	9251,	List(12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27)
+[LSM invokers], 31777,	user43,	ResNet50,	16,	16,	2975.0,	4056,	35833,	9283,	List(0, 1, 2, 3, 8, 9, 10, 11, 32, 33, 34, 35, 36, 37, 38, 39)
+[LSM invokers], 33295, user40, finished, JCT, 9148, currentAVGJCT, 3649.25
+[LSM invokers], 33295, runningUsers(2), ListBuffer(user23, user43)
+[LSM invokers], 33295, queuingUsers(0), ListBuffer()
+[LSM invokers], 33295, GPU usage, 32 / 40
+[LSM invokers], 33295,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 33295,	user23,	ResNet50,	16,	16,	2790.0,	3804,	37099,	19339,	List(4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 33295,	user43,	ResNet50,	16,	16,	1815.0,	2474,	35769,	9219,	List(0, 1, 2, 3, 8, 9, 10, 11, 32, 33, 34, 35, 36, 37, 38, 39)
+[LSM invokers], 35656, user43, finished, JCT, 9106, currentAVGJCT, 3760.61
+[LSM invokers], 35656, runningUsers(1), ListBuffer(user23)
+[LSM invokers], 35656, queuingUsers(0), ListBuffer()
+[LSM invokers], 35656, GPU usage, 16 / 40
+[LSM invokers], 35656,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList
+[LSM invokers], 35656,	user23,	ResNet50,	16,	16,	1014.0,	1382,	37038,	19278,	List(4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23)
+[LSM invokers], 37032, user23, finished, JCT, 19272, currentAVGJCT, 4070.84
+[LSM invokers], 37032, runningUsers(0), ListBuffer()
+[LSM invokers], 37032, queuingUsers(0), ListBuffer()
+[LSM invokers], 37032, GPU usage, 0 / 40
+[LSM invokers], 37032,	user,	model,		#gpu,	fs,	rI,	rT,	eET,	eJCT,	invokerList

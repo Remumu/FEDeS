@@ -1,0 +1,2 @@
+## Download trace data
+The trace data used in this project can be downloaded from [Philly Traces](https://github.com/msr-fiddle/philly-traces). Please download the trace data and place it in this directory.

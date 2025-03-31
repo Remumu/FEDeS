@@ -1,0 +1,12 @@
+Mon 31 Mar 2025 09:44:59 PM KST
+
+6c71a0-srsf.log
+Makespan,8726002,avgJCT,37381.4,FairnessT,53.9052,avg_gpu_load,166.456,yield_per_job,0.995318,mean_n_avg,108.415,maxFairT,3.01335,minFairT,0.055901,dFair,0.398805,dFairSq,0.475868,FairnessN,37.7392,maxFairN,3.90558,minFairN,0.103489,dfairN,0.732575,dfairNSq,0.751064,avg_frag_w_q,1.82266
+Fairness
+Mm,1/n,1/n-Down,GPU_load,GPU_share
+0.620524,0.279412,0.60168,0.315219,2.37962
+Fairness CV
+0.462734,0.757946,0.447393,1.15532
+Locality
+dist,bit
+0.956901,0.923288

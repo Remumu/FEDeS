@@ -1,0 +1,12 @@
+Mon 31 Mar 2025 09:46:25 PM KST
+
+b436b2-themis.log
+Makespan,9453882,avgJCT,99475.6,FairnessT,45.4699,avg_gpu_load,248,yield_per_job,0.295924,mean_n_avg,1612.16,maxFairT,8.25841,minFairT,0.181624,dFair,1.00111,dFairSq,1.31749,FairnessN,27.1005,maxFairN,5.62809,minFairN,0.207675,dfairN,0.557738,dfairNSq,0.694001,avg_frag_w_q,0.465251
+Fairness
+Mm,1/n,1/n-Down,GPU_load,GPU_share
+1.98287,1.46496,1.75143,1.49284,0.632948
+Fairness CV
+0.44247,0.351698,0.315762,0.546505
+Locality
+dist,bit
+0.99579,0.990223

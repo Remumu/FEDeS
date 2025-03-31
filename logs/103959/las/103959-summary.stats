@@ -1,0 +1,12 @@
+Mon 31 Mar 2025 09:47:24 PM KST
+
+103959-las.log
+Makespan,8311743,avgJCT,141640,FairnessT,363.626,avg_gpu_load,127.819,yield_per_job,0.84882,mean_n_avg,41.7874,maxFairT,27.2564,minFairT,0.0749572,dFair,0.43657,dFairSq,1.27776,FairnessN,123.733,maxFairN,9.6343,minFairN,0.0778638,dfairN,0.621279,dfairNSq,0.823885,avg_frag_w_q,0.507679
+Fairness
+Mm,1/n,1/n-Down,GPU_load,GPU_share
+0.908897,0.562195,0.893051,0.627718,1.92039
+Fairness CV
+1.40225,1.24145,1.4096,1.20697
+Locality
+dist,bit
+0.941826,0.89483

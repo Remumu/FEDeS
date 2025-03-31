@@ -1,0 +1,12 @@
+Mon 31 Mar 2025 10:34:55 PM KST
+
+e13805-s-alpha-zero.log
+Makespan,7948790,avgJCT,66391.1,FairnessT,8.00954,avg_gpu_load,10.2929,cold_per_job,1.61741,avg_wave,1.06015,avg_effi_gpu_load,0,avg_fair_gpu_load,0,avg_gpu_usg,2.85211,mean_n_avg,5.4581,avg_shuffle,1.61741,maxFairT,1.76128,minFairT,0.219898,dfairT,0.0843929,dfairSq,0.191817,FairnessN,6.70635,maxFairN,1.49866,minFairN,0.223469,dfairN,0.142788,dfairNSq,0.25017,avg_frag_w_q,0.0161394
+Fairness
+Mm,1/n,1/n-Down,GPU_load,GPU_share
+0.941604,0.868667,0.892145,0.912234,1.13838
+Fairness CV
+0.194043,0.245116,0.24667,0.290653
+Locality
+dist,bit,con
+0.942492,0.887161,1.02443

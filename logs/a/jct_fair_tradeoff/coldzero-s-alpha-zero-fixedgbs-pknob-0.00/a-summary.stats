@@ -1,0 +1,12 @@
+ 
+
+a-s-alpha-zero.log
+Makespan,30782,avgJCT,3379.83,FairnessT,3.84243,avg_gpu_load,42.7545,cold_per_job,2.22,avg_wave,1.13033,avg_effi_gpu_load,0,avg_fair_gpu_load,0,avg_gpu_usg,3.13243,mean_n_avg,14.4948,avg_shuffle,2.22,maxFairT,1.35859,minFairT,0.353576,dfairT,0.0696153,dfairSq,0.142807,FairnessN,2.46853,maxFairN,1.47093,minFairN,0.595873,dfairN,0.212229,dfairNSq,0.240672
+Fairness
+Mm,1/n,1/n-Down,GPU_load,GPU_share
+0.973617,0.817417,0.84947,0.817417,1.0572
+Fairness CV
+0.144152,0.191825,0.279968,0.191825
+Locality
+dist,bit,con
+0.879965,0.752215,1.02801
