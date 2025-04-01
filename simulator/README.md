@@ -12,11 +12,13 @@ Run scale-down trace
 ``` bash
 ./run_sim_arf.sh
 ./run_sim_alpha.sh
+./make_summary_table.sh
 ```
 Run large-scale trace
 ``` bash
 ./run_sim_ls_arf.sh
 ./run_sim_ls_alpha.sh
+./make_summary_table_ls.sh
 ```
 
 In the case of `run_sim_ls_alpha.sh`, it takes about an hour. When simulating FEDeS, the number of loops in the simulator increases because the job is split into functions and simulated as execution units.
