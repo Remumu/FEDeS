@@ -149,7 +149,7 @@ do
 
 	echo "Run $WORKLOAD with trsd=${TRSD} pknob=${PKNOB} rl=${RL}"
 
-	WL_DIR="${BASEDIR}/workloads/${WORKLOAD}"
+	WL_DIR="${BASEDIR}/../traces/philly-traces/analysis/vldb_traces/${WORKLOAD}"
 	WL_FILE="${WL_DIR}/${WORKLOAD}.trace"
 	if [ ! -f $WL_FILE ]
 	then

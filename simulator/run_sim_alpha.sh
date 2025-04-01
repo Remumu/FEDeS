@@ -60,22 +60,7 @@ if [ ! -z $SCHEDULE ]
 then
 	schedulers=$SCHEDULE
 else
-	# schedulers=("srsf" "las" "themis")
-	# schedulers=("srsf")
-	# schedulers=("themis")
-	# schedulers=("las")
-
-	# schedulers=("s-srsf" "s-themis" "s-tiresias") 
-	# schedulers=("s-srsf")
-	# schedulers=("s-tiresias") 
-	# schedulers=("s-themis") 
-
-	# schedulers=("s-alpha-zero" "s-alpha-one" "s-mm")
-	# schedulers=("s-alpha-one")
 	schedulers=("s-alpha-zero")
-	# schedulers=("s-mm")
-	# schedulers=("grdl-opt")
-	# schedulers=("grdl-srsf")
 fi
 
 if [ ! -z $WORKLOAD ]
@@ -120,7 +105,7 @@ do
 
 	echo "Run $WORKLOAD with trsd=${TRSD} pknob=${PKNOB} rl=${RL}"
 
-	WL_DIR="${BASEDIR}/workloads/${WORKLOAD}"
+	WL_DIR="${BASEDIR}/../traces/philly-traces/analysis/vldb_traces/${WORKLOAD}"
 	WL_FILE="${WL_DIR}/${WORKLOAD}.trace"
 	if [ ! -f $WL_FILE ]
 	then
@@ -152,25 +137,6 @@ do
 	
 	ratio=0
 	knob=0.01
-
-	# s-themis params
-	# stms_filter=0.8
-	# stms_filter=0.2
-	stms_filter=0.0
-	# stms_filter=0.1
-	# stms_lease=1800000
-	# stms_lease=65
-	stms_lease=25
-	stms_lease=10
-	stms_lease=${LEASES[$i]}
-
-	# s-tiresias params
-	strs_qtrsd=60
-	# strs_qtrsd=${TRSD}
-	strs_qtrsd=25000
-	strs_qtrsd=610
-	strs_qtrsd=740
-	strs_qtrsd=${STRSDS[$i]}
 
 	LOG_DIR="${BASEDIR}/logs"
 	#for knob in 1 1.5 2 2.5
