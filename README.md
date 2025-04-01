@@ -10,6 +10,7 @@ This repository contains the code and scripts for generating figures of FEDeS.
 │   ├── scripts/     # Python scripts for generating each figure
 │   └── images/      # Generated figures are saved here
 ├── logs/            # Contains experiment and simulation logs
+├── simulator/       # Contains source codes and scripts of simulator
 └── traces/          # Contains workload traces
 ```
 
